@@ -1,10 +1,15 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Phone, MessageSquare, Mail, Clock, CheckCircle2 } from 'lucide-react';
+import LogoLink from './LogoLink';
 
 const Hero = () => {
   const scrollToPricing = () => {
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToForm = () => {
+    document.getElementById('demo-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -12,11 +17,7 @@ const Hero = () => {
       <div className="hero-container">
         {/* Logo */}
         <div className="hero-logo">
-          <img 
-            src="https://storage.googleapis.com/funnel-ai-production/chat/Sf7aTUm2lqA6OpM6417Y/brandmark-design-12.png" 
-            alt="Mondays Marketing Systems" 
-            className="logo-image"
-          />
+          <LogoLink />
         </div>
 
         {/* Hero Content */}
@@ -59,9 +60,9 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="cta-primary"
-              onClick={scrollToPricing}
+              onClick={scrollToForm}
             >
-              Get Started Today
+              Book a Demo
             </Button>
             <Button 
               size="lg" 
@@ -85,6 +86,7 @@ const Hero = () => {
               <strong>200+</strong> home services businesses trust us
             </div>
           </div>
+
         </div>
       </div>
     </section>

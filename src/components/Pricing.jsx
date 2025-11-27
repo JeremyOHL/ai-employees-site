@@ -3,6 +3,10 @@ import { Button } from './ui/button';
 import { Check } from 'lucide-react';
 
 const Pricing = () => {
+  const scrollToForm = () => {
+    document.getElementById('demo-form')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const plans = [
     {
       name: 'Starter',
@@ -93,6 +97,7 @@ const Pricing = () => {
               <Button 
                 className={plan.popular ? 'pricing-cta popular-cta' : 'pricing-cta'}
                 size="lg"
+                onClick={scrollToForm}
               >
                 Get Started
               </Button>

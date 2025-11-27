@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, Phone } from 'lucide-react';
+import LogoLink from './LogoLink';
 
 const Footer = () => {
   return (
@@ -8,11 +10,7 @@ const Footer = () => {
         <div className="footer-content">
           {/* Logo & Description */}
           <div className="footer-brand">
-            <img 
-              src="https://storage.googleapis.com/funnel-ai-production/chat/Sf7aTUm2lqA6OpM6417Y/brandmark-design-12.png" 
-              alt="Mondays Marketing Systems" 
-              className="footer-logo"
-            />
+            <LogoLink className="footer-logo-link" />
             <p className="footer-description">
               AI employees for home services businesses. Never miss a lead again.
             </p>
@@ -33,10 +31,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Services</h4>
             <ul className="footer-links">
-              <li><a href="#">Call Answering</a></li>
-              <li><a href="#">Lead Follow-up</a></li>
-              <li><a href="#">Chat & SMS</a></li>
-              <li><a href="#">Appointment Booking</a></li>
+              <li><a href="#features">Call Answering</a></li>
+              <li><a href="#features">Lead Follow-up</a></li>
+              <li><a href="#features">Chat & SMS</a></li>
+              <li><a href="#features">Appointment Booking</a></li>
             </ul>
           </div>
 
@@ -59,9 +57,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <p>&copy; 2025 Mondays Marketing Systems. All rights reserved.</p>
           <div className="footer-legal">
-            <a href="#">Privacy Policy</a>
+            <Link to="/privacy">Privacy Policy</Link>
             <span className="separator">•</span>
-            <a href="#">Terms of Service</a>
+            <Link to="/terms">Terms of Service</Link>
           </div>
         </div>
       </div>
