@@ -59,7 +59,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="cta-primary"
-              onClick={() => window.location.href = '#pricing'}
+              onClick={scrollToPricing}
             >
               Get Started Today
             </Button>

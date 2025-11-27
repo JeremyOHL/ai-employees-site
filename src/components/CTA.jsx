@@ -3,8 +3,12 @@ import { Button } from './ui/button';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const CTA = () => {
+  const scrollToPricing = () => {
+    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
-    <section className="cta-section">
+    <section id="cta" className="cta-section">
       <div className="cta-container">
         <div className="cta-content">
           <h2 className="cta-title">
@@ -35,7 +39,12 @@ const CTA = () => {
               Book Your Free Demo
               <ArrowRight className="button-icon" />
             </Button>
-            <Button size="lg" variant="outline" className="cta-secondary-button">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="cta-secondary-button"
+              onClick={scrollToPricing}
+            >
               View Pricing Again
             </Button>
           </div>

@@ -36,7 +36,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="features-section">
+    <section id="features" className="features-section">
       <div className="features-container">
         <div className="section-header">
           <h2 className="section-title">Your AI Employee Does It All</h2>
