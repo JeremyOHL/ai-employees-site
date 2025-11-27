@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoLink from '../components/LogoLink';
+import Footer from '../components/Footer';
 
 const PrivacyPage = () => {
   const sections = [
@@ -72,7 +73,7 @@ const PrivacyPage = () => {
           <div className="legal-section">
             <h3>Security</h3>
             <p>
-              We apply encryption in transit, role-based access, logging, and regular reviews. Report security concerns to security@leadwithmondays.com.
+              We apply encryption in transit, role-based access, logging, and regular reviews. Report security concerns to hello@leadwithmondays.com.
             </p>
           </div>
           <div className="legal-section">
@@ -83,6 +84,7 @@ const PrivacyPage = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

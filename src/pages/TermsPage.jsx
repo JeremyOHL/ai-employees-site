@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoLink from '../components/LogoLink';
+import Footer from '../components/Footer';
 
 const TermsPage = () => {
   return (
@@ -86,6 +87,7 @@ const TermsPage = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
