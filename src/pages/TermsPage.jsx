@@ -6,7 +6,6 @@ const TermsPage = () => {
     <div className="legal-page">
       <header className="legal-hero">
         <LogoLink />
-        <p className="legal-kicker">Terms of Service</p>
         <h1 className="legal-title">Simple terms for AI employees that never sleep.</h1>
         <p className="legal-subtitle">
           Here’s how we work together, keep your data safe, and deliver responsive AI for your home services business.

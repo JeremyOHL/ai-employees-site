@@ -25,7 +25,6 @@ const PrivacyPage = () => {
     <div className="legal-page">
       <header className="legal-hero">
         <LogoLink />
-        <p className="legal-kicker">Privacy Policy</p>
         <h1 className="legal-title">We protect the conversations that grow your business.</h1>
         <p className="legal-subtitle">
           Clear, human-readable rules on how we collect, use, and safeguard your data—so you can keep scaling with confidence.
