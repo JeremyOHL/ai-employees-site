@@ -41,7 +41,7 @@ const CTA = () => {
 
             <div className="cta-buttons">
               <Button size="lg" className="cta-primary-button" onClick={scrollToForm}>
-                Book Your Free Demo
+                Book Your Free Call
                 <ArrowRight className="button-icon" />
               </Button>
               <Button 
@@ -50,7 +50,7 @@ const CTA = () => {
                 className="cta-secondary-button"
                 onClick={scrollToPricing}
               >
-                View Pricing Again
+                View Pricing
               </Button>
             </div>
 
@@ -61,7 +61,7 @@ const CTA = () => {
 
           <div className="cta-form-shell" id="demo-form">
             <div className="form-placeholder">
-              <p className="form-placeholder-title">GoHighLevel form goes here</p>
+              <p className="form-placeholder-title">Your form or scheduler goes here</p>
               <p className="form-placeholder-body">
                 Paste your form embed code or scheduler snippet. Keep this wrapper so buttons can scroll here and tracking params can be added later.
               </p>

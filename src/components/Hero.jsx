@@ -62,7 +62,7 @@ const Hero = () => {
               className="cta-primary"
               onClick={scrollToForm}
             >
-              Book a Demo
+              Book a Call
             </Button>
             <Button 
               size="lg" 

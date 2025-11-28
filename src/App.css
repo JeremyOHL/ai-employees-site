@@ -158,7 +158,7 @@ html {
 
 .cta-secondary {
   background: transparent;
-  color: #ffffff;
+  color: #f6f8ff;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 24px 48px;
@@ -171,6 +171,7 @@ html {
 .cta-secondary:hover {
   background: rgba(155, 77, 255, 0.1);
   border-color: #b06dff;
+  color: #ffffff;
   transform: translateY(-3px);
 }
 
@@ -1009,7 +1010,7 @@ html {
 
 .cta-secondary-button {
   background: transparent;
-  color: #ffffff;
+  color: #f6f8ff;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 24px 48px;
@@ -1022,6 +1023,7 @@ html {
 .cta-secondary-button:hover {
   background: rgba(155, 77, 255, 0.1);
   border-color: #b06dff;
+  color: #ffffff;
   transform: translateY(-3px);
 }
 
