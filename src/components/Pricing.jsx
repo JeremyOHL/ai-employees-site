@@ -63,7 +63,7 @@ const Pricing = () => {
         <div className="section-header">
           <h2 className="section-title">Simple, Transparent Pricing</h2>
           <p className="section-subtitle">
-            Choose the plan that fits your business. All plans include a one-time setup fee of $297.
+            Choose the plan that fits your business. All plans require a one-time setup fee.
           </p>
         </div>
 
