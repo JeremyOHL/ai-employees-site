@@ -17,31 +17,30 @@ const CTA = () => {
         <div className="cta-grid">
           <div className="cta-content">
             <h2 className="cta-title">
-              Ready to Stop Missing Leads?
+              Ready to Install Mondays Marketing Systems?
             </h2>
             <p className="cta-subtitle">
-              Join 200+ home services businesses using AI employees to capture more leads, 
-              book more appointments, and grow their revenue—without adding headcount.
+              Get the software and the service in one motion: your Mondays App-powered operating system, implemented, launched, and optimized with you.
             </p>
 
             <div className="cta-benefits">
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Free 30-minute consultation</span>
+                <span>Free 30-minute systems consult</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Custom AI employee setup</span>
+                <span>Custom Mondays App workspace + funnels</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Live in 2 weeks or less</span>
+                <span>Go live in ~14 days</span>
               </div>
             </div>
 
             <div className="cta-buttons">
               <Button size="lg" className="cta-primary-button" onClick={scrollToForm}>
-                Book Your Free Call
+                Book Your Systems Call
                 <ArrowRight className="button-icon" />
               </Button>
               <Button 
@@ -55,7 +54,7 @@ const CTA = () => {
             </div>
 
             <p className="cta-guarantee">
-              30-day money-back guarantee • No long-term contracts • Cancel anytime
+              Month-to-month. One-time build fee. You keep your data and brand.
             </p>
           </div>
 

@@ -9,49 +9,50 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: 'Starter',
-      price: 97,
-      description: 'Perfect for small businesses getting started with AI',
+      name: 'Foundation Systems',
+      price: 297,
+      description: 'SwaS essentials for teams getting off spreadsheets and into a real operating system.',
       features: [
-        'Up to 500 interactions/month',
-        'Phone call handling',
-        'SMS & Email responses',
-        'Basic lead qualification',
-        'Appointment scheduling',
-        'Email support',
-        'Monthly performance reports'
+        'Your own white-labeled Mondays App workspace',
+        'CRM + unified inbox setup',
+        '1 pipeline + 1 calendar built for you',
+        'Lead capture forms + chat widget',
+        'Speed-to-lead + reminder automations',
+        'Review requests + reputation hub',
+        'Reporting starter dashboard',
+        'Office hours + email support'
       ],
       popular: false
     },
     {
-      name: 'Professional',
-      price: 297,
-      description: 'For growing businesses ready to scale',
+      name: 'Growth Systems',
+      price: 597,
+      description: 'Most teams start here: go live fast with full-funnel systems and ongoing optimization.',
       features: [
-        'Up to 2,000 interactions/month',
-        'Everything in Starter',
-        'Live chat integration',
-        'Advanced lead qualification',
-        'CRM integration',
-        'Priority support',
-        'Weekly performance reports',
-        'Custom AI training'
+        'Everything in Foundation',
+        'Multi-channel nurture + routing',
+        '2-3 funnels/landing pages built',
+        'Pipeline + stage automation rules',
+        'Call tracking + attribution setup',
+        'Conversion dashboards + KPIs',
+        '2 new campaigns each month',
+        'Priority support + Slack'
       ],
       popular: true
     },
     {
-      name: 'Enterprise',
-      price: 497,
-      description: 'For established businesses maximizing ROI',
+      name: 'Authority Systems',
+      price: 997,
+      description: 'For leaders who want a fully operated system, multi-location control, and aggressive growth.',
       features: [
-        'Unlimited interactions',
-        'Everything in Professional',
-        'Multiple AI employees',
-        'Advanced analytics dashboard',
-        'Custom integrations',
-        'Dedicated account manager',
-        'Daily performance reports',
-        '24/7 priority support'
+        'Everything in Growth',
+        'Multi-location + territory controls',
+        'Outbound sequences + power dialer',
+        'Hiring/recruiting pipelines',
+        'Advanced attribution & forecasting',
+        'Quarterly planning workshops',
+        'Dedicated strategist + weekly reviews',
+        'Done-with-you integrations'
       ],
       popular: false
     }
@@ -61,9 +62,9 @@ const Pricing = () => {
     <section id="pricing" className="pricing-section">
       <div className="pricing-container">
         <div className="section-header">
-          <h2 className="section-title">Simple, Transparent Pricing</h2>
+          <h2 className="section-title">Simple, Transparent SwaS Pricing</h2>
           <p className="section-subtitle">
-            Choose the plan that fits your business. All plans require a one-time setup fee.
+            Every plan includes your own white-labeled Mondays App workspace plus our service to build, launch, and optimize it with you.
           </p>
         </div>
 
@@ -106,8 +107,8 @@ const Pricing = () => {
         </div>
 
         <div className="pricing-note">
-          <p>✓ One-time setup investment (includes custom configuration and training)</p>
-          <p>✓ Cancel anytime • No long-term contracts • 30-day money-back guarantee</p>
+          <p>✓ One-time build fee covers migration, brand setup, domains, and QA</p>
+          <p>✓ Month-to-month • Keep your data • Dedicated strategist with every plan</p>
         </div>
       </div>
     </section>

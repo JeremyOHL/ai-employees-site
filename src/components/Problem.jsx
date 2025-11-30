@@ -3,28 +3,28 @@ import { X, Check } from 'lucide-react';
 
 const Problem = () => {
   const problems = [
-    'Missing calls after hours costs you $50K+ annually',
-    'Competitors respond faster and steal your leads',
-    'Manual follow-ups take hours each day',
-    'No time to qualify leads properly',
-    'Customers expect instant responses 24/7'
+    'Leads live in spreadsheets, inboxes, and sticky notes',
+    'Follow-up dies after day one and money is left on the table',
+    'Teams waste hours moving data between disconnected tools',
+    'Leaders can’t see pipeline health or ROI in real time',
+    'Campaigns stall because the tech never gets fully configured'
   ];
 
   const solutions = [
-    'Answer every call instantly, day or night',
-    'Respond to leads within seconds',
-    'Automated follow-ups handled perfectly',
-    'AI qualifies leads and books appointments',
-    'Your business never sleeps'
+    'One Mondays App operating system running every lead',
+    'Automated nurture and routing that never forgets a prospect',
+    'Prebuilt pipelines, calendars, forms, and funnels',
+    'Dashboards for lead source, speed-to-lead, and revenue',
+    'Hands-on team that implements and optimizes for you'
   ];
 
   return (
     <section id="problem" className="problem-section">
       <div className="problem-container">
         <div className="section-header">
-          <h2 className="section-title">Stop Losing Money to Missed Opportunities</h2>
+          <h2 className="section-title">Stop Surviving on Patchwork Tools</h2>
           <p className="section-subtitle">
-            Every missed call, delayed response, or unanswered message is revenue walking out the door.
+            When your systems are scattered, growth stalls. Mondays Marketing Systems installs the structure you need to thrive.
           </p>
         </div>
 
@@ -44,8 +44,8 @@ const Problem = () => {
               ))}
             </div>
             <div className="problem-stat">
-              <span className="stat-number">$75K+</span>
-              <span className="stat-text">Lost annually to missed opportunities</span>
+              <span className="stat-number">$250K</span>
+              <span className="stat-text">Average pipeline left unmanaged each year</span>
             </div>
           </div>
 
@@ -64,8 +64,8 @@ const Problem = () => {
               ))}
             </div>
             <div className="solution-stat">
-              <span className="stat-number">300%</span>
-              <span className="stat-text">Average ROI within first year</span>
+              <span className="stat-number">3.2x</span>
+              <span className="stat-text">Average ROI inside the first 12 months</span>
             </div>
           </div>
         </div>

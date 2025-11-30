@@ -7,9 +7,9 @@ const TermsPage = () => {
     <div className="legal-page">
       <header className="legal-hero">
         <LogoLink />
-        <h1 className="legal-title">Simple terms for AI employees that never sleep.</h1>
+        <h1 className="legal-title">Simple terms for Mondays Marketing Systems.</h1>
         <p className="legal-subtitle">
-          Here’s how we work together, keep your data safe, and deliver responsive AI for your home services business.
+          How we partner, protect your data, and keep your Mondays App-powered operating system running smoothly.
         </p>
       </header>
 
@@ -19,7 +19,7 @@ const TermsPage = () => {
           <ul className="legal-bullets">
             <li className="legal-bullet">
               <span className="legal-bullet-title">Services</span>
-              <span className="legal-bullet-body">AI-powered communication, scheduling, and follow-up for your leads and customers.</span>
+              <span className="legal-bullet-body">Software-with-a-Service: Mondays App platform access, CRM, funnels, automations, reporting, and ongoing ops support.</span>
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Acceptable Use</span>
@@ -27,7 +27,7 @@ const TermsPage = () => {
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Billing</span>
-              <span className="legal-bullet-body">Monthly subscription plus setup fee. Cancel anytime with 30 days notice unless otherwise stated.</span>
+              <span className="legal-bullet-body">Monthly subscription plus a one-time build fee. Month-to-month unless otherwise stated in your plan.</span>
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Liability</span>
@@ -64,7 +64,7 @@ const TermsPage = () => {
           <div className="legal-section">
             <h3>Intellectual Property</h3>
             <p>
-              We retain ownership of the platform and AI models. You retain ownership of your data and grant us rights to use it to provide the service.
+              We retain ownership of the platform, templates, and playbooks. You retain ownership of your data and brand assets and grant us rights to use them to provide the service.
             </p>
           </div>
           <div className="legal-section">

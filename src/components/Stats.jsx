@@ -5,23 +5,23 @@ const Stats = () => {
   const stats = [
     {
       icon: <TrendingUp className="stat-icon" />,
-      value: '95%',
-      label: 'Lead Response Rate'
+      value: '4.5x',
+      label: 'Faster follow-up velocity'
     },
     {
       icon: <Clock className="stat-icon" />,
-      value: '24/7',
-      label: 'Always Available'
+      value: '14 days',
+      label: 'Average time to go live'
     },
     {
       icon: <DollarSign className="stat-icon" />,
-      value: '$45K',
-      label: 'Avg. Revenue Increase'
+      value: '38%',
+      label: 'Avg. lift in booked revenue'
     },
     {
       icon: <Users className="stat-icon" />,
-      value: '100+',
-      label: 'Happy Businesses'
+      value: '150+',
+      label: 'Operators on the MMS stack'
     }
   ];
 

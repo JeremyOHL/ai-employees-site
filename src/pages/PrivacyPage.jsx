@@ -10,7 +10,7 @@ const PrivacyPage = () => {
     },
     {
       title: 'How We Use It',
-      body: 'To respond to inquiries, power AI employees, improve services, and keep the platform secure.'
+      body: 'To respond to inquiries, deliver our Mondays App-powered services, improve performance, and keep the platform secure.'
     },
     {
       title: 'Sharing',
@@ -49,13 +49,13 @@ const PrivacyPage = () => {
           <div className="legal-section">
             <h3>Information We Collect</h3>
             <p>
-              We collect contact details, business context, communications metadata, and usage data to power AI interactions and improve performance. We do not sell personal data.
+              We collect contact details, business context, communications metadata, and usage data to configure your workspace and improve performance. We do not sell personal data.
             </p>
           </div>
           <div className="legal-section">
             <h3>How We Use Information</h3>
             <p>
-              To provide services, personalize responses, monitor quality, prevent fraud, and comply with legal obligations. Marketing emails are opt-in and easy to turn off.
+              To provide services, personalize experiences, monitor quality, prevent fraud, and comply with legal obligations. Marketing emails are opt-in and easy to turn off.
             </p>
           </div>
           <div className="legal-section">

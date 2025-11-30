@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-brand">
             <LogoLink className="footer-logo-link" />
             <p className="footer-description">
-              AI employees for home services businesses. Never miss a lead again.
+              Mondays Marketing Systems is SwaS: your white-labeled Mondays App platform plus the team that builds and runs it with you.
             </p>
           </div>
 
@@ -31,10 +31,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Services</h4>
             <ul className="footer-links">
-              <li><a href="#features">Call Answering</a></li>
-              <li><a href="#features">Lead Follow-up</a></li>
-              <li><a href="#features">Chat & SMS</a></li>
-              <li><a href="#features">Appointment Booking</a></li>
+              <li><a href="#features">Mondays App Workspace Setup</a></li>
+              <li><a href="#features">Automations & Nurture</a></li>
+              <li><a href="#features">Funnels & Calendars</a></li>
+              <li><a href="#features">Reporting & Attribution</a></li>
             </ul>
           </div>
 

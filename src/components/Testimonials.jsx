@@ -7,42 +7,42 @@ const Testimonials = () => {
       name: 'Mike Richardson',
       company: 'Richardson Plumbing',
       role: 'Owner',
-      text: 'Since implementing the AI employee, we\'ve increased our booking rate by 45%. It answers calls while we\'re on jobs, and customers love the instant response.',
+      text: 'Mondays rebuilt our entire Mondays App workspace and turned it into a real operating system. We finally have one place to see leads, bookings, and revenue.',
       avatar: 'MR'
     },
     {
       name: 'Sarah Thompson',
       company: 'Thompson HVAC Services',
       role: 'Operations Manager',
-      text: 'Game changer for our business. We used to miss so many after-hours calls. Now we capture every lead, and our revenue has increased by $60K in just 6 months.',
+      text: 'They launched us in two weeks and keep shipping new campaigns. Booked jobs are up 40% because follow-up just happens without us chasing it.',
       avatar: 'ST'
     },
     {
       name: 'James Martinez',
       company: 'Elite Landscaping Co',
       role: 'CEO',
-      text: 'The AI employee handles lead qualification perfectly. It books the right appointments and filters out tire-kickers. Our close rate has improved dramatically.',
+      text: 'The nurture sequences and routing rules filter tire-kickers and get serious prospects on the calendar. Our sales team only sees qualified opportunities now.',
       avatar: 'JM'
     },
     {
       name: 'Lisa Chen',
       company: 'Pro Electrical Solutions',
       role: 'Owner',
-      text: 'Best investment we\'ve made. The AI responds to emails, texts, and calls instantly. Our customers think we have a full-time receptionist. Worth every penny.',
+      text: 'We keep our brand, but the Mondays team runs the tech. It feels like having an internal marketing ops department without the headcount.',
       avatar: 'LC'
     },
     {
       name: 'Tom Anderson',
       company: 'Anderson Roofing',
       role: 'President',
-      text: 'I was skeptical at first, but the results speak for themselves. We\'re booking 3x more appointments and spending less time on admin work. It just works.',
+      text: 'The weekly reviews and dashboards give us real numbers: speed-to-lead, close rates, and ROI by channel. Decisions are faster now.',
       avatar: 'TA'
     },
     {
       name: 'Rachel Foster',
       company: 'Foster Cleaning Services',
       role: 'Founder',
-      text: 'As a solo operator, I couldn\'t answer my phone during jobs. I was losing customers left and right. Now my AI employee handles everything. Life-changing.',
+      text: 'I used to live in chaos. With the MMS stack, nothing slips: forms, chat, SMS, reviews, calendars—it all talks to each other.',
       avatar: 'RF'
     }
   ];
@@ -51,9 +51,9 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials-section">
       <div className="testimonials-container">
         <div className="section-header">
-          <h2 className="section-title">What Home Services Businesses Are Saying</h2>
+          <h2 className="section-title">Operators Who Moved to Mondays Marketing Systems</h2>
           <p className="section-subtitle">
-            Real results from real businesses just like yours.
+            Real teams replacing patchwork tools with one Mondays App-powered system and real service.
           </p>
         </div>
 

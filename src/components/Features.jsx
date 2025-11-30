@@ -1,37 +1,37 @@
 import React from 'react';
-import { Phone, MessageSquare, Mail, Smartphone, Target, Calendar } from 'lucide-react';
+import { LayoutDashboard, Wand2, Megaphone, Calendar, BarChart3, Headset } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
-      icon: <Phone />,
-      title: 'Answer Inbound Calls',
-      description: 'Never miss a call again. Our AI employees answer every call professionally, gather information, and handle customer inquiries 24/7.'
+      icon: <LayoutDashboard />,
+      title: 'White-Labeled Mondays App Workspace',
+      description: 'Your own branded Mondays App instance with CRM, pipelines, calendars, forms, and permissions pre-configured for your team.'
     },
     {
-      icon: <Target />,
-      title: 'Follow Up With Leads',
-      description: 'Automated follow-ups ensure no lead falls through the cracks. Your AI employee nurtures prospects with timely, personalized communication.'
+      icon: <Wand2 />,
+      title: 'Automations That Never Quit',
+      description: 'Multi-step nurture, lead routing, and task creation that keeps prospects moving without your team chasing them manually.'
     },
     {
-      icon: <MessageSquare />,
-      title: 'Respond to Live Chat',
-      description: 'Instant responses to website visitors. Engage customers in real-time, answer questions, and guide them toward booking.'
-    },
-    {
-      icon: <Mail />,
-      title: 'Handle Email Inquiries',
-      description: 'Professional email responses sent instantly. Your AI employee understands context and provides accurate, helpful information.'
-    },
-    {
-      icon: <Smartphone />,
-      title: 'Manage SMS Messages',
-      description: 'Text messaging handled seamlessly. Quick responses to SMS inquiries keep customers engaged and moving toward conversion.'
+      icon: <Megaphone />,
+      title: 'Funnels & Campaigns Ready to Launch',
+      description: 'Prebuilt landing pages, chat widgets, and campaigns tailored to your offer so you can launch without reinventing the wheel.'
     },
     {
       icon: <Calendar />,
-      title: 'Book Appointments',
-      description: 'Automated scheduling that syncs with your calendar. Qualify leads, check availability, and book appointments without lifting a finger.'
+      title: 'Calendars & Scheduling Built-In',
+      description: 'Round-robin, territory-based, or resource scheduling with reminders and confirmations that match how your business operates.'
+    },
+    {
+      icon: <BarChart3 />,
+      title: 'Reporting You Can Trust',
+      description: 'Dashboards for speed-to-lead, pipeline health, and revenue attribution so leadership sees what is working.'
+    },
+    {
+      icon: <Headset />,
+      title: 'Service Included Every Month',
+      description: 'Strategy, implementation, and optimizations from our team—because software is only as good as the people operating it.'
     }
   ];
 
@@ -39,9 +39,9 @@ const Features = () => {
     <section id="features" className="features-section">
       <div className="features-container">
         <div className="section-header">
-          <h2 className="section-title">Your AI Employee Does It All</h2>
+          <h2 className="section-title">Your Systems Do the Heavy Lifting</h2>
           <p className="section-subtitle">
-            A complete customer engagement solution that handles every touchpoint of your business communication.
+            A complete Mondays App-powered stack—software plus service—that captures, routes, nurtures, and reports on every lead.
           </p>
         </div>
 

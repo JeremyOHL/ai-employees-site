@@ -1,50 +1,50 @@
 import React from 'react';
-import { Phone, Settings, Rocket, TrendingUp } from 'lucide-react';
+import { Search, Wrench, Rocket, TrendingUp } from 'lucide-react';
 
 const HowItWorks = () => {
   const steps = [
     {
       number: '01',
-      icon: <Phone />,
-      title: 'Discovery Call',
-      description: 'We start with a free 30-minute consultation to understand your business, processes, and specific needs.',
+      icon: <Search />,
+      title: 'Systems Audit & Plan',
+      description: 'We diagnose your current stack, map the gaps, and prioritize the systems that will unlock growth fastest.',
       features: [
-        'Analyze your current workflow',
-        'Identify automation opportunities',
-        'Define success metrics'
+        'Clarify goals, offers, and handoffs',
+        'Select the right Mondays App modules',
+        'Set success metrics and timelines'
       ]
     },
     {
       number: '02',
-      icon: <Settings />,
-      title: 'Custom Setup',
-      description: 'We configure your AI employee with your business information, tone, and specific requirements.',
+      icon: <Wrench />,
+      title: 'Build Your Workspace',
+      description: 'We configure your white-labeled HighLevel environment, including pipelines, calendars, automations, and permissions.',
       features: [
-        'Custom AI training',
-        'Integration with your team',
-        'Personalized responses'
+        'CRM, calendars, funnels, chat',
+        'Routing + nurture automations',
+        'Copy, creative, and QA checks'
       ]
     },
     {
       number: '03',
       icon: <Rocket />,
-      title: 'Launch & Test',
-      description: 'Your AI employee goes live. We monitor performance closely and make adjustments as needed.',
+      title: 'Launch & Enable',
+      description: 'We connect domains, numbers, and inboxes, then go live with your campaigns while training your team.',
       features: [
-        '2-week deployment',
-        'Real-time testing',
-        '24/7 monitoring'
+        'Go-live in about 14 days',
+        'Team onboarding + playbooks',
+        'Live support during rollout'
       ]
     },
     {
       number: '04',
       icon: <TrendingUp />,
       title: 'Optimize & Grow',
-      description: 'Continuous optimization ensures maximum ROI. We refine performance based on real data and results.',
+      description: 'We operate the system with you: campaign refreshes, reporting, and continuous improvements.',
       features: [
-        'Performance analytics',
-        'Ongoing optimization',
-        'Regular updates'
+        'Weekly/bi-weekly reviews',
+        'New campaigns every month',
+        'Slack + email support'
       ]
     }
   ];
@@ -53,9 +53,9 @@ const HowItWorks = () => {
     <section id="how-it-works" className="how-it-works-section">
       <div className="how-it-works-container">
         <div className="section-header">
-          <h2 className="section-title">How It Works</h2>
+          <h2 className="section-title">How Mondays Marketing Systems Works</h2>
           <p className="section-subtitle">
-            Our proven 4-step process gets your AI employee up and running in just 2 weeks.
+            A clear, done-with-you process that gets your Mondays App operating system live quickly—and keeps it sharp.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const HowItWorks = () => {
           <div className="cta-badges">
             <div className="badge">✓ Free Consultation</div>
             <div className="badge">✓ 2-Week Setup</div>
-            <div className="badge">✓ 24/7 Monitoring</div>
+            <div className="badge">✓ Service Included</div>
           </div>
         </div>
       </div>
