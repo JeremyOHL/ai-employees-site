@@ -20,7 +20,7 @@ const CTA = () => {
               Ready to Install Mondays Marketing Systems?
             </h2>
             <p className="cta-subtitle">
-              Get the software and the service in one motion: your Mondays App-powered operating system, implemented, launched, and optimized with you.
+              Get the software and the service in one motion: your operating system implemented, launched, and optimized with you.
             </p>
 
             <div className="cta-benefits">
@@ -30,7 +30,7 @@ const CTA = () => {
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Custom Mondays App workspace + funnels</span>
+                <span>Custom systems, funnels, and campaigns</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />

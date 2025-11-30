@@ -11,7 +11,7 @@ const Problem = () => {
   ];
 
   const solutions = [
-    'One Mondays App operating system running every lead',
+    'One operating system running every lead',
     'Automated nurture and routing that never forgets a prospect',
     'Prebuilt pipelines, calendars, forms, and funnels',
     'Dashboards for lead source, speed-to-lead, and revenue',

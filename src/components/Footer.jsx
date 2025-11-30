@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-brand">
             <LogoLink className="footer-logo-link" />
             <p className="footer-description">
-              Mondays Marketing Systems is SwaS: your white-labeled Mondays App platform plus the team that builds and runs it with you.
+              Mondays Marketing Systems is SwaS: the growth systems you need plus the team that builds and runs them with you.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Services</h4>
             <ul className="footer-links">
-              <li><a href="#features">Mondays App Workspace Setup</a></li>
+              <li><a href="#features">Systems Setup</a></li>
               <li><a href="#features">Automations & Nurture</a></li>
               <li><a href="#features">Funnels & Calendars</a></li>
               <li><a href="#features">Reporting & Attribution</a></li>

@@ -7,7 +7,7 @@ const Testimonials = () => {
       name: 'Mike Richardson',
       company: 'Richardson Plumbing',
       role: 'Owner',
-      text: 'Mondays rebuilt our entire Mondays App workspace and turned it into a real operating system. We finally have one place to see leads, bookings, and revenue.',
+      text: 'Mondays rebuilt our entire system and turned it into a real operating platform. We finally have one place to see leads, bookings, and revenue.',
       avatar: 'MR'
     },
     {
@@ -53,7 +53,7 @@ const Testimonials = () => {
         <div className="section-header">
           <h2 className="section-title">Operators Who Moved to Mondays Marketing Systems</h2>
           <p className="section-subtitle">
-            Real teams replacing patchwork tools with one Mondays App-powered system and real service.
+            Real teams replacing patchwork tools with one operated system and real service.
           </p>
         </div>
 

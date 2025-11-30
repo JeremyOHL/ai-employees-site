@@ -26,19 +26,18 @@ const Hero = () => {
             Mondays Marketing Systems
             <span className="highlight-text"> Software with a Service</span>
             <br />
-            Built on our white-labeled Mondays App platform
+            Built to install revenue-ready systems into your business
           </h1>
           
           <p className="hero-subtitle">
-            Stop surviving on duct-taped tools. We install and run a complete growth system—Mondays App software, 
-            proven automations, and hands-on service—so your business has the structure to thrive.
+            Stop surviving on duct-taped tools. We install and run a complete growth system—pipelines, follow-up, campaigns, reporting, and proven automations—so your business has the structure to thrive.
           </p>
 
           {/* Key Benefits */}
           <div className="hero-benefits">
             <div className="benefit-item">
               <Phone className="benefit-icon" />
-              <span>White-labeled Mondays App workspace</span>
+              <span>Unified inbox + routing that responds fast</span>
             </div>
             <div className="benefit-item">
               <MessageSquare className="benefit-icon" />

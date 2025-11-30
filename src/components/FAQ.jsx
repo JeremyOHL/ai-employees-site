@@ -10,7 +10,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: 'What exactly is Mondays Marketing Systems?',
-      answer: 'It’s Software-with-a-Service: your own white-labeled Mondays App platform plus our team to build, launch, and operate your marketing systems. You get the software and the operators together.'
+      answer: 'It’s Software-with-a-Service: the revenue systems we implement and operate with you. The Mondays App runs behind the scenes, but the focus is on the campaigns, automations, and reporting we deliver.'
     },
     {
       question: 'Do I need to learn HighLevel?',
@@ -38,7 +38,7 @@ const FAQ = () => {
     },
     {
       question: 'Can we use our own domains, numbers, and branding?',
-      answer: 'Absolutely. Everything is white-labeled to your brand—domains, sending numbers, emails, funnels, and dashboards.'
+      answer: 'Absolutely. Everything matches your brand—domains, sending numbers, emails, funnels, and dashboards.'
     }
   ];
 
@@ -48,7 +48,7 @@ const FAQ = () => {
         <div className="section-header">
           <h2 className="section-title">Frequently Asked Questions</h2>
           <p className="section-subtitle">
-            Everything you need to know about running your systems on Mondays Marketing and the Mondays App.
+            Everything you need to know about running your systems with Mondays Marketing.
           </p>
         </div>
 

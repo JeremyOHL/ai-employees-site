@@ -9,7 +9,7 @@ const TermsPage = () => {
         <LogoLink />
         <h1 className="legal-title">Simple terms for Mondays Marketing Systems.</h1>
         <p className="legal-subtitle">
-          How we partner, protect your data, and keep your Mondays App-powered operating system running smoothly.
+          How we partner, protect your data, and keep your operating system running smoothly.
         </p>
       </header>
 
@@ -19,7 +19,7 @@ const TermsPage = () => {
           <ul className="legal-bullets">
             <li className="legal-bullet">
               <span className="legal-bullet-title">Services</span>
-              <span className="legal-bullet-body">Software-with-a-Service: Mondays App platform access, CRM, funnels, automations, reporting, and ongoing ops support.</span>
+              <span className="legal-bullet-body">Software-with-a-Service: campaign, automation, CRM, and reporting systems delivered and supported through the Mondays App platform.</span>
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Acceptable Use</span>

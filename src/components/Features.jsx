@@ -5,8 +5,8 @@ const Features = () => {
   const features = [
     {
       icon: <LayoutDashboard />,
-      title: 'White-Labeled Mondays App Workspace',
-      description: 'Your own branded Mondays App instance with CRM, pipelines, calendars, forms, and permissions pre-configured for your team.'
+      title: 'Unified CRM + Inbox',
+      description: 'One place for leads, conversations, pipelines, calendars, forms, and permissions—configured to match how your team actually works.'
     },
     {
       icon: <Wand2 />,
@@ -41,7 +41,7 @@ const Features = () => {
         <div className="section-header">
           <h2 className="section-title">Your Systems Do the Heavy Lifting</h2>
           <p className="section-subtitle">
-            A complete Mondays App-powered stack—software plus service—that captures, routes, nurtures, and reports on every lead.
+            A complete, done-with-you stack that captures, routes, nurtures, and reports on every lead—without you wrangling tools.
           </p>
         </div>
 

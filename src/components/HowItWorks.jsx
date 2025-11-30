@@ -10,7 +10,7 @@ const HowItWorks = () => {
       description: 'We diagnose your current stack, map the gaps, and prioritize the systems that will unlock growth fastest.',
       features: [
         'Clarify goals, offers, and handoffs',
-        'Select the right Mondays App modules',
+        'Select the right systems and automations',
         'Set success metrics and timelines'
       ]
     },
@@ -18,7 +18,7 @@ const HowItWorks = () => {
       number: '02',
       icon: <Wrench />,
       title: 'Build Your Workspace',
-      description: 'We configure your white-labeled HighLevel environment, including pipelines, calendars, automations, and permissions.',
+      description: 'We configure your environment—pipelines, calendars, automations, and permissions—so the system mirrors your business.',
       features: [
         'CRM, calendars, funnels, chat',
         'Routing + nurture automations',
@@ -55,7 +55,7 @@ const HowItWorks = () => {
         <div className="section-header">
           <h2 className="section-title">How Mondays Marketing Systems Works</h2>
           <p className="section-subtitle">
-            A clear, done-with-you process that gets your Mondays App operating system live quickly—and keeps it sharp.
+            A clear, done-with-you process that gets your operating system live quickly—and keeps it sharp.
           </p>
         </div>
 

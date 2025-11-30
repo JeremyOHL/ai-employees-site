@@ -10,7 +10,7 @@ const PrivacyPage = () => {
     },
     {
       title: 'How We Use It',
-      body: 'To respond to inquiries, deliver our Mondays App-powered services, improve performance, and keep the platform secure.'
+      body: 'To respond to inquiries, deliver our services via the Mondays App platform, improve performance, and keep the platform secure.'
     },
     {
       title: 'Sharing',

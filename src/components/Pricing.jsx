@@ -13,8 +13,7 @@ const Pricing = () => {
       price: 297,
       description: 'SwaS essentials for teams getting off spreadsheets and into a real operating system.',
       features: [
-        'Your own white-labeled Mondays App workspace',
-        'CRM + unified inbox setup',
+        'Unified CRM + inbox setup',
         '1 pipeline + 1 calendar built for you',
         'Lead capture forms + chat widget',
         'Speed-to-lead + reminder automations',
@@ -64,7 +63,7 @@ const Pricing = () => {
         <div className="section-header">
           <h2 className="section-title">Simple, Transparent SwaS Pricing</h2>
           <p className="section-subtitle">
-            Every plan includes your own white-labeled Mondays App workspace plus our service to build, launch, and optimize it with you.
+            Every plan includes systems setup, campaigns, and ongoing service to build, launch, and optimize your marketing operations with you.
           </p>
         </div>
 
