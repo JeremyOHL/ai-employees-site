@@ -23,10 +23,10 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            Mondays Marketing Systems
-            <span className="highlight-text"> Software with a Service</span>
+            Leads slipping through?
+            <span className="highlight-text"> Mondays turns them into bookings.</span>
             <br />
-            Built to install revenue-ready systems into your business
+            Capture, nurture, and schedule every opportunity automatically.
           </h1>
           
           <p className="hero-subtitle">
