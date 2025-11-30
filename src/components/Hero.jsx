@@ -23,10 +23,8 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            Leads slipping through?
-            <span className="highlight-text"> Mondays turns them into bookings.</span>
-            <br />
-            Capture, nurture, and schedule every opportunity automatically.
+            Stop losing leads.
+            <span className="highlight-text"> Mondays books them for you.</span>
           </h1>
           
           <p className="hero-subtitle">
