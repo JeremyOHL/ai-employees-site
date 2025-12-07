@@ -11,9 +11,6 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="footer-brand">
             <LogoLink className="footer-logo-link" />
-            <p className="footer-description">
-              Mondays Marketing Systems is SwaS: the growth systems you need plus the team that builds and runs them with you.
-            </p>
           </div>
 
           {/* Quick Links */}
