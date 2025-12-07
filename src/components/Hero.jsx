@@ -23,31 +23,31 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            Stop losing leads.
-            <span className="highlight-text"> Mondays books them for you.</span>
+            Free website that books customers.
+            <span className="highlight-text"> Built and hosted for you.</span>
           </h1>
           
           <p className="hero-subtitle">
-            Stop surviving on duct-taped tools. We install and run a complete growth system—pipelines, follow-up, campaigns, reporting, and proven automations—so your business has the structure to thrive.
+            Get a custom, one-page site in your brand with lead forms, chat, and scheduling—no contracts, no setup fees. Pay a flat monthly to host and keep stacking conversions.
           </p>
 
           {/* Key Benefits */}
           <div className="hero-benefits">
             <div className="benefit-item">
               <Phone className="benefit-icon" />
-              <span>Unified inbox + routing that responds fast</span>
+              <span>Your logo, colors, copy included</span>
             </div>
             <div className="benefit-item">
               <MessageSquare className="benefit-icon" />
-              <span>Campaigns + funnels ready to deploy</span>
+              <span>Forms, chat, and contact buttons that convert</span>
             </div>
             <div className="benefit-item">
               <Clock className="benefit-icon" />
-              <span>Go live in 14 days</span>
+              <span>Launch in under 10 days</span>
             </div>
             <div className="benefit-item">
               <CheckCircle2 className="benefit-icon" />
-              <span>Done-with-you service every month</span>
+              <span>Flat monthly hosting • No contracts</span>
             </div>
           </div>
 

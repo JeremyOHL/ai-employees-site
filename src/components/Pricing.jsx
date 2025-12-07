@@ -9,49 +9,44 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: 'Foundation Systems',
-      price: 297,
-      description: 'SwaS essentials for teams getting off spreadsheets and into a real operating system.',
+      name: 'Free Site',
+      price: 0,
+      description: 'We build and brand your one-page site at no cost. Yours to keep.',
       features: [
-        'Unified CRM + inbox setup',
-        '1 pipeline + 1 calendar built for you',
-        'Lead capture forms + chat widget',
-        'Speed-to-lead + reminder automations',
-        'Review requests + reputation hub',
-        'Reporting starter dashboard',
-        'Office hours + email support'
+        'Custom design with your logo/colors',
+        'Conversion copy + hero CTA',
+        'Lead form + click-to-call buttons',
+        'Chat widget placement',
+        'Mobile-first + SEO basics',
+        'Launch in under 10 days'
       ],
       popular: false
     },
     {
-      name: 'Growth Systems',
-      price: 597,
-      description: 'Most teams start here: go live fast with full-funnel systems and ongoing optimization.',
+      name: 'Launch Hosting',
+      price: 197,
+      description: 'Flat monthly hosting and support for your free site. No contracts, no setup fees.',
       features: [
-        'Everything in Foundation',
-        'Multi-channel nurture + routing',
-        '2-3 funnels/landing pages built',
-        'Pipeline + stage automation rules',
-        'Call tracking + attribution setup',
-        'Conversion dashboards + KPIs',
-        '2 new campaigns each month',
-        'Priority support + Slack'
+        'Managed hosting + SSL + backups',
+        'Unlimited edits to your page',
+        'Form/chat inbox with lead alerts',
+        'Analytics + heatmaps',
+        'Page speed + uptime monitoring',
+        'Email support'
       ],
       popular: true
     },
     {
-      name: 'Authority Systems',
-      price: 997,
-      description: 'For leaders who want a fully operated system, multi-location control, and aggressive growth.',
+      name: 'Growth Add-Ons',
+      price: 397,
+      description: 'Add automations, booking, and campaigns to turn visitors into booked revenue.',
       features: [
-        'Everything in Growth',
-        'Multi-location + territory controls',
-        'Outbound sequences + power dialer',
-        'Hiring/recruiting pipelines',
-        'Advanced attribution & forecasting',
-        'Quarterly planning workshops',
-        'Dedicated strategist + weekly reviews',
-        'Done-with-you integrations'
+        'Everything in Launch Hosting',
+        'Booking flows + reminders',
+        'Email/SMS nurture sequences',
+        'Promo funnels and offers',
+        'A/B tests + conversion reviews',
+        'Priority support'
       ],
       popular: false
     }
@@ -61,9 +56,9 @@ const Pricing = () => {
     <section id="pricing" className="pricing-section">
       <div className="pricing-container">
         <div className="section-header">
-          <h2 className="section-title">Simple, Transparent SwaS Pricing</h2>
+          <h2 className="section-title">Free site. Flat monthly hosting.</h2>
           <p className="section-subtitle">
-            Every plan includes systems setup, campaigns, and ongoing service to build, launch, and optimize your marketing operations with you.
+            Your custom page is free. Keep it hosted, updated, and conversion-ready for one flat monthly—add campaigns when you want.
           </p>
         </div>
 
@@ -106,8 +101,8 @@ const Pricing = () => {
         </div>
 
         <div className="pricing-note">
-          <p>✓ One-time build fee covers migration, brand setup, domains, and QA</p>
-          <p>✓ Month-to-month • Keep your data • Dedicated strategist with every plan</p>
+          <p>✓ No contracts • No setup fees • Cancel anytime</p>
+          <p>✓ Hosting, SSL, updates, and support included in your monthly</p>
         </div>
       </div>
     </section>

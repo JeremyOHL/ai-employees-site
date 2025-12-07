@@ -3,19 +3,19 @@ import { X, Check } from 'lucide-react';
 
 const Problem = () => {
   const problems = [
-    'Leads live in spreadsheets, inboxes, and sticky notes',
-    'Follow-up dies after day one and money is left on the table',
-    'Teams waste hours moving data between disconnected tools',
-    'Leaders can’t see pipeline health or ROI in real time',
-    'Campaigns stall because the tech never gets fully configured'
+    'Your site is a digital brochure instead of a lead machine',
+    'You pay designers/developers and still wait weeks for updates',
+    'Leads bounce because there’s no fast way to call, chat, or book',
+    'Follow-up is manual and inconsistent',
+    'Hidden fees and contracts make switching painful'
   ];
 
   const solutions = [
-    'One operating system running every lead',
-    'Automated nurture and routing that never forgets a prospect',
-    'Prebuilt pipelines, calendars, forms, and funnels',
-    'Dashboards for lead source, speed-to-lead, and revenue',
-    'Hands-on team that implements and optimizes for you'
+    'A free branded landing page built to convert',
+    'Fast launch with your copy, colors, and logo',
+    'Click-to-call, chat, and lead forms baked in',
+    'Automated reminders and handoffs so follow-up happens',
+    'Flat monthly hosting—no contracts, no setup fees'
   ];
 
   return (

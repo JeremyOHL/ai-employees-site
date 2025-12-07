@@ -17,30 +17,30 @@ const CTA = () => {
         <div className="cta-grid">
           <div className="cta-content">
             <h2 className="cta-title">
-              Ready to Install Mondays Marketing Systems?
+              Ready for your free website?
             </h2>
             <p className="cta-subtitle">
-              Get the software and the service in one motion: your operating system implemented, launched, and optimized with you.
+              We design and launch a custom one-page site in your brand for free. Keep it hosted, updated, and converting for a flat monthly—no contracts or hidden fees.
             </p>
 
             <div className="cta-benefits">
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Free 30-minute systems consult</span>
+                <span>Free build, your brand and copy</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Custom systems, funnels, and campaigns</span>
+                <span>Forms, chat, and booking included</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Go live in ~14 days</span>
+                <span>Go live in under 10 days</span>
               </div>
             </div>
 
             <div className="cta-buttons">
               <Button size="lg" className="cta-primary-button" onClick={scrollToForm}>
-                Book Your Systems Call
+                Claim Your Free Site
                 <ArrowRight className="button-icon" />
               </Button>
               <Button 
@@ -54,7 +54,7 @@ const CTA = () => {
             </div>
 
             <p className="cta-guarantee">
-              Month-to-month. One-time build fee. You keep your data and brand.
+              No contracts. No setup fees. Flat monthly hosting and support.
             </p>
           </div>
 

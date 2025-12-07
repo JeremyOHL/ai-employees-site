@@ -9,36 +9,36 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: 'What exactly is Mondays Marketing Systems?',
-      answer: 'It’s Software-with-a-Service: the revenue systems we implement and operate with you. The Mondays App runs behind the scenes, but the focus is on the campaigns, automations, and reporting we deliver.'
+      question: 'How is the website free?',
+      answer: 'We build and brand a one-page site at no cost. You only pay the flat monthly if you want us to host, update, and keep it converting with forms, chat, and booking.'
     },
     {
-      question: 'Do I need to learn HighLevel?',
-      answer: 'No. We configure everything for you and train your team on the handful of actions they need. We run the technical setup, QA, and ongoing optimizations so you can focus on the business.'
+      question: 'What do I pay monthly?',
+      answer: 'A single flat fee covers hosting, SSL, backups, edits, and support. Add automations, booking flows, and campaigns when you’re ready—still month-to-month.'
     },
     {
-      question: 'How fast can we launch?',
-      answer: 'Most clients go live in about 14 days. The first week is planning and build-out, the second week is QA, connections, and training. We keep shipping improvements after launch.'
+      question: 'How fast do you launch?',
+      answer: 'Most free sites launch in under 10 days: day 1-2 copy and outline, day 3-6 design/build, day 7-10 QA, domain, and go-live.'
     },
     {
-      question: 'Can you migrate our existing data and assets?',
-      answer: 'Yes. We migrate contacts, pipelines, calendars, forms, and domains into your new workspace. We also rebuild key funnels and nurture sequences so nothing is lost.'
+      question: 'Can you use my domain and branding?',
+      answer: 'Yes. We use your domain, logo, colors, and voice. If you don’t have a domain yet, we can set it up for you.'
     },
     {
-      question: 'What is included in the monthly service?',
-      answer: 'Strategy calls, campaign launches, automation tweaks, reporting, and support. We act as your marketing-ops team—no extra headcount needed.'
+      question: 'What’s included with hosting?',
+      answer: 'Hosting, SSL, backups, speed checks, heatmaps, analytics setup, and unlimited edits to the page. We also keep forms, chat, and booking working smoothly.'
     },
     {
-      question: 'Do you only serve home services businesses?',
-      answer: 'We started in home services and now support B2C and B2B service brands that rely on lead capture, fast follow-up, and booked appointments.'
+      question: 'Do you lock me into a contract?',
+      answer: 'No. It’s month-to-month. Cancel anytime and take your site with you.'
     },
     {
-      question: 'Is there a long-term contract?',
-      answer: 'No. Plans are month-to-month. There is a one-time build fee to cover migration, brand setup, and QA. You keep your data and we earn your business every month.'
+      question: 'Can I add more pages or campaigns later?',
+      answer: 'Yes. We can spin up promo pages, booking flows, and nurture campaigns when you want to drive more demand.'
     },
     {
-      question: 'Can we use our own domains, numbers, and branding?',
-      answer: 'Absolutely. Everything matches your brand—domains, sending numbers, emails, funnels, and dashboards.'
+      question: 'Do I have to learn new software?',
+      answer: 'No. We run the tech behind the scenes on our platform. You get the page, the leads, and the support—without babysitting tools.'
     }
   ];
 

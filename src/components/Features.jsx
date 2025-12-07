@@ -5,33 +5,33 @@ const Features = () => {
   const features = [
     {
       icon: <LayoutDashboard />,
-      title: 'Unified CRM + Inbox',
-      description: 'One place for leads, conversations, pipelines, calendars, forms, and permissions—configured to match how your team actually works.'
+      title: 'Free Branded Page',
+      description: 'A custom one-page site with your logo, colors, and copy written to convert visitors into leads.'
     },
     {
       icon: <Wand2 />,
-      title: 'Automations That Never Quit',
-      description: 'Multi-step nurture, lead routing, and task creation that keeps prospects moving without your team chasing them manually.'
+      title: 'Lead Capture That Works',
+      description: 'Click-to-call buttons, smart forms, and chat that route leads instantly to the right place.'
     },
     {
       icon: <Megaphone />,
-      title: 'Funnels & Campaigns Ready to Launch',
-      description: 'Prebuilt landing pages, chat widgets, and campaigns tailored to your offer so you can launch without reinventing the wheel.'
+      title: 'Add Campaigns Anytime',
+      description: 'Ready-to-launch funnels and promos you can turn on when you’re ready to generate more demand.'
     },
     {
       icon: <Calendar />,
-      title: 'Calendars & Scheduling Built-In',
-      description: 'Round-robin, territory-based, or resource scheduling with reminders and confirmations that match how your business operates.'
+      title: 'Built-In Booking',
+      description: 'Calendars and confirmations so prospects can schedule themselves—plus reminders to keep them from no-showing.'
     },
     {
       icon: <BarChart3 />,
-      title: 'Reporting You Can Trust',
-      description: 'Dashboards for speed-to-lead, pipeline health, and revenue attribution so leadership sees what is working.'
+      title: 'Hosting & Updates Included',
+      description: 'Managed hosting, SSL, backups, and performance tweaks included in your flat monthly.'
     },
     {
       icon: <Headset />,
-      title: 'Service Included Every Month',
-      description: 'Strategy, implementation, and optimizations from our team—because software is only as good as the people operating it.'
+      title: 'No Fees. No Contracts.',
+      description: 'Cancel anytime. Add forms, chat, or campaigns as you grow without hidden setup fees.'
     }
   ];
 

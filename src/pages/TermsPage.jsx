@@ -19,7 +19,7 @@ const TermsPage = () => {
           <ul className="legal-bullets">
             <li className="legal-bullet">
               <span className="legal-bullet-title">Services</span>
-              <span className="legal-bullet-body">Software-with-a-Service: campaign, automation, CRM, and reporting systems delivered and supported through the Mondays App platform.</span>
+              <span className="legal-bullet-body">We design and launch your website, host it, and can add forms, chat, booking, and campaigns. Technology runs behind the scenes on the Mondays platform.</span>
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Acceptable Use</span>
@@ -27,7 +27,7 @@ const TermsPage = () => {
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Billing</span>
-              <span className="legal-bullet-body">Monthly subscription plus a one-time build fee. Month-to-month unless otherwise stated in your plan.</span>
+              <span className="legal-bullet-body">Flat monthly billing for hosting and services. No setup fees or long-term contracts unless otherwise stated.</span>
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Liability</span>

@@ -6,45 +6,45 @@ const HowItWorks = () => {
     {
       number: '01',
       icon: <Search />,
-      title: 'Systems Audit & Plan',
-      description: 'We diagnose your current stack, map the gaps, and prioritize the systems that will unlock growth fastest.',
+      title: 'Claim Your Free Site',
+      description: 'We learn your offer, gather your brand assets, and write copy built to convert.',
       features: [
-        'Clarify goals, offers, and handoffs',
-        'Select the right systems and automations',
-        'Set success metrics and timelines'
+        'Brand colors, logo, and messaging',
+        'Offer, headline, and CTA crafted for you',
+        'Page outline in 24-48 hours'
       ]
     },
     {
       number: '02',
       icon: <Wrench />,
-      title: 'Build Your Workspace',
-      description: 'We configure your environment—pipelines, calendars, automations, and permissions—so the system mirrors your business.',
+      title: 'Design & Build',
+      description: 'We design and build your landing page with forms, chat, and booking wired in.',
       features: [
-        'CRM, calendars, funnels, chat',
-        'Routing + nurture automations',
-        'Copy, creative, and QA checks'
+        'Mobile-first design in your brand',
+        'Lead forms, chat, and click-to-call',
+        'QA, speed, and SEO basics'
       ]
     },
     {
       number: '03',
       icon: <Rocket />,
-      title: 'Launch & Enable',
-      description: 'We connect domains, numbers, and inboxes, then go live with your campaigns while training your team.',
+      title: 'Launch & Host',
+      description: 'We connect your domain, handle SSL, and go live. Hosting and updates are included.',
       features: [
-        'Go-live in about 14 days',
-        'Team onboarding + playbooks',
-        'Live support during rollout'
+        'Done in under 10 days',
+        'Hosting, SSL, backups included',
+        'Simple edits post-launch'
       ]
     },
     {
       number: '04',
       icon: <TrendingUp />,
       title: 'Optimize & Grow',
-      description: 'We operate the system with you: campaign refreshes, reporting, and continuous improvements.',
+      description: 'Add campaigns, automations, and nurture when you want more demand—still no contracts or hidden fees.',
       features: [
-        'Weekly/bi-weekly reviews',
-        'New campaigns every month',
-        'Slack + email support'
+        'Turn on promos and funnels fast',
+        'Reporting on lead flow and bookings',
+        'Cancel anytime'
       ]
     }
   ];
