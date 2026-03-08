@@ -5,33 +5,33 @@ const Features = () => {
   const features = [
     {
       icon: <LayoutDashboard />,
-      title: 'Free Branded Page',
-      description: 'A custom one-page site with your logo, colors, and copy written to convert visitors into leads.'
+      title: 'AI Missed-Call Recovery',
+      description: 'When you miss a call, your AI Agent follows up instantly by text so leads do not move on.'
     },
     {
       icon: <Wand2 />,
-      title: 'Lead Capture That Works',
-      description: 'Click-to-call buttons, smart forms, and chat that route leads instantly to the right place.'
+      title: 'AI Qualification & Booking',
+      description: 'AI Agents ask the right questions, pre-qualify prospects, and route serious opportunities to booking.'
     },
     {
       icon: <Megaphone />,
-      title: 'Add Campaigns Anytime',
-      description: 'Ready-to-launch funnels and promos you can turn on when you’re ready to generate more demand.'
+      title: 'Lead Reactivation Campaigns',
+      description: 'Turn old estimates and past leads into booked jobs with automated text and email reactivation.'
     },
     {
       icon: <Calendar />,
-      title: 'Built-In Booking',
-      description: 'Calendars and confirmations so prospects can schedule themselves—plus reminders to keep them from no-showing.'
+      title: 'Calendar + No-Show Prevention',
+      description: 'Self-booking with reminders and confirmations to reduce drop-off before the job.'
     },
     {
       icon: <BarChart3 />,
-      title: 'Hosting & Updates Included',
-      description: 'Managed hosting, SSL, backups, and performance tweaks included in your flat monthly.'
+      title: 'Pipeline & Revenue Visibility',
+      description: 'Track every lead from first contact to close so you can see where deals stall and fix it fast.'
     },
     {
       icon: <Headset />,
-      title: 'No Fees. No Contracts.',
-      description: 'Cancel anytime. Add forms, chat, or campaigns as you grow without hidden setup fees.'
+      title: 'All-In-One Mondays Marketing App',
+      description: 'Full business suite with CRM, communications, automations, marketing, and reporting in one place.'
     }
   ];
 
@@ -41,7 +41,7 @@ const Features = () => {
         <div className="section-header">
           <h2 className="section-title">Your Systems Do the Heavy Lifting</h2>
           <p className="section-subtitle">
-            A complete, done-with-you stack that captures, routes, nurtures, and reports on every lead—without you wrangling tools.
+            Start with AI Agents or run your entire operation inside the Mondays Marketing App. Either way, every lead gets handled.
           </p>
         </div>
 

@@ -23,31 +23,31 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            Free website that books customers.
-            <span className="highlight-text"> Built and hosted for you.</span>
+            Stop losing leads after hours.
+            <span className="highlight-text"> AI Agents and the Mondays Marketing App for home services.</span>
           </h1>
           
           <p className="hero-subtitle">
-            Get a custom, one-page site in your brand with lead forms, chat, and scheduling—no contracts, no setup fees. Pay a flat monthly to host and keep stacking conversions.
+            If missed calls, slow follow-up, and scattered tools are costing you jobs, we fix it. Choose AI Agent Essentials or run your whole growth engine in one app.
           </p>
 
           {/* Key Benefits */}
           <div className="hero-benefits">
             <div className="benefit-item">
               <Phone className="benefit-icon" />
-              <span>Your logo, colors, copy included</span>
+              <span>24/7 AI responds to missed calls and new leads in seconds</span>
             </div>
             <div className="benefit-item">
               <MessageSquare className="benefit-icon" />
-              <span>Forms, chat, and contact buttons that convert</span>
+              <span>Every text, call, web lead, and chat in one inbox</span>
             </div>
             <div className="benefit-item">
               <Clock className="benefit-icon" />
-              <span>Launch in under 10 days</span>
+              <span>Automated follow-up so prospects never go cold</span>
             </div>
             <div className="benefit-item">
               <CheckCircle2 className="benefit-icon" />
-              <span>Flat monthly hosting • No contracts</span>
+              <span>Choose AI Agent only or the full Mondays Marketing App suite</span>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ const Hero = () => {
               className="cta-primary"
               onClick={scrollToForm}
             >
-              Book a Systems Call
+              Book a Growth Call
             </Button>
             <Button 
               size="lg" 
@@ -66,7 +66,7 @@ const Hero = () => {
               className="cta-secondary"
               onClick={scrollToPricing}
             >
-              View Pricing
+              Compare Solutions
             </Button>
           </div>
 
@@ -79,7 +79,7 @@ const Hero = () => {
               <div className="avatar">AL</div>
             </div>
             <div className="social-proof-text">
-              <strong>200+</strong> teams run their systems on Mondays Marketing
+              <strong>Built for</strong> plumbers, HVAC, roofing, electrical, cleaning, and more
             </div>
           </div>
 

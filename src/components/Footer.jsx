@@ -28,10 +28,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Services</h4>
             <ul className="footer-links">
-              <li><a href="#features">Systems Setup</a></li>
-              <li><a href="#features">Automations & Nurture</a></li>
-              <li><a href="#features">Funnels & Calendars</a></li>
-              <li><a href="#features">Reporting & Attribution</a></li>
+              <li><a href="#pricing">AI Agent Essentials</a></li>
+              <li><a href="#pricing">Mondays Marketing App Suite</a></li>
+              <li><a href="#features">Automation & Follow-Up</a></li>
+              <li><a href="#features">Pipeline & Reporting</a></li>
             </ul>
           </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2025 Mondays Marketing Systems. All rights reserved.</p>
+          <p>&copy; 2026 Mondays Marketing. All rights reserved.</p>
           <div className="footer-legal">
             <Link to="/privacy">Privacy Policy</Link>
             <span className="separator">•</span>

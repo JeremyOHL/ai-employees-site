@@ -9,46 +9,33 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: 'Free Site',
-      price: 0,
-      description: 'We build and brand your one-page site at no cost. Yours to keep.',
+      name: 'AI Agent Essentials',
+      price: 297,
+      description: 'For owners who want to stop losing leads from missed calls, slow replies, and inconsistent follow-up.',
       features: [
-        'Custom design with your logo/colors',
-        'Conversion copy + hero CTA',
-        'Lead form + click-to-call buttons',
-        'Chat widget placement',
-        'Mobile-first + SEO basics',
-        'Launch in under 10 days'
+        'AI missed-call text-back',
+        'Instant AI response to new lead inquiries',
+        'AI lead qualification and routing',
+        'Booking and handoff workflows',
+        'Basic pipeline visibility',
+        'Month-to-month flexibility'
       ],
       popular: false
     },
     {
-      name: 'Launch Hosting',
-      price: 197,
-      description: 'Flat monthly hosting and support for your free site. No contracts, no setup fees.',
+      name: 'Mondays Marketing App Suite',
+      price: 697,
+      description: 'Your full business suite: communications, CRM, automations, marketing, and reporting in one branded app.',
       features: [
-        'Managed hosting + SSL + backups',
-        'Unlimited edits to your page',
-        'Form/chat inbox with lead alerts',
-        'Analytics + heatmaps',
-        'Page speed + uptime monitoring',
-        'Email support'
-      ],
-      popular: true
-    },
-    {
-      name: 'Growth Add-Ons',
-      price: 397,
-      description: 'Add automations, booking, and campaigns to turn visitors into booked revenue.',
-      features: [
-        'Everything in Launch Hosting',
-        'Booking flows + reminders',
-        'Email/SMS nurture sequences',
-        'Promo funnels and offers',
-        'A/B tests + conversion reviews',
+        'Everything in AI Agent Essentials',
+        'Unified inbox for calls, SMS, chat, and forms',
+        'Full CRM and opportunity pipeline management',
+        'Automated follow-up and nurture campaigns',
+        'Calendar, reminders, and no-show prevention',
+        'Dashboards, attribution, and performance reporting',
         'Priority support'
       ],
-      popular: false
+      popular: true
     }
   ];
 
@@ -56,9 +43,9 @@ const Pricing = () => {
     <section id="pricing" className="pricing-section">
       <div className="pricing-container">
         <div className="section-header">
-          <h2 className="section-title">Free site. Flat monthly hosting.</h2>
+          <h2 className="section-title">Two Offers. One Goal: More Booked Jobs.</h2>
           <p className="section-subtitle">
-            Your custom page is free. Keep it hosted, updated, and conversion-ready for one flat monthly—add campaigns when you want.
+            Start with AI Agent Essentials or run your operation on the full Mondays Marketing App suite.
           </p>
         </div>
 
@@ -101,8 +88,8 @@ const Pricing = () => {
         </div>
 
         <div className="pricing-note">
-          <p>✓ No contracts • No setup fees • Cancel anytime</p>
-          <p>✓ Hosting, SSL, updates, and support included in your monthly</p>
+          <p>✓ Built for small home service businesses focused on lead response and close rate</p>
+          <p>✓ No platform confusion, no patchwork tools, and no leads left behind</p>
         </div>
       </div>
     </section>

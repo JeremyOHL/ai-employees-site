@@ -42,7 +42,7 @@ const Testimonials = () => {
       name: 'Rachel Foster',
       company: 'Foster Cleaning Services',
       role: 'Founder',
-      text: 'I used to live in chaos. With the MMS stack, nothing slips: forms, chat, SMS, reviews, calendars—it all talks to each other.',
+      text: 'I used to live in chaos. With the Mondays Marketing App, nothing slips: forms, chat, SMS, reviews, calendars, and follow-up all work together.',
       avatar: 'RF'
     }
   ];
@@ -51,9 +51,9 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials-section">
       <div className="testimonials-container">
         <div className="section-header">
-          <h2 className="section-title">Operators Who Moved to Mondays Marketing Systems</h2>
+          <h2 className="section-title">Home Service Operators Growing with Mondays Marketing</h2>
           <p className="section-subtitle">
-            Real teams replacing patchwork tools with one operated system and real service.
+            Real teams replacing dropped leads and patchwork tools with AI-powered follow-up and one operating system.
           </p>
         </div>
 

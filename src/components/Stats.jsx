@@ -5,23 +5,23 @@ const Stats = () => {
   const stats = [
     {
       icon: <TrendingUp className="stat-icon" />,
-      value: '4.5x',
-      label: 'Faster follow-up velocity'
+      value: '<60 sec',
+      label: 'Typical first response with AI Agents'
     },
     {
       icon: <Clock className="stat-icon" />,
-      value: '14 days',
-      label: 'Average time to go live'
+      value: '24/7',
+      label: 'Lead response coverage after hours'
     },
     {
       icon: <DollarSign className="stat-icon" />,
-      value: '38%',
-      label: 'Avg. lift in booked revenue'
+      value: '2 Paths',
+      label: 'AI Agent only or full app suite'
     },
     {
       icon: <Users className="stat-icon" />,
-      value: '150+',
-      label: 'Operators on the MMS stack'
+      value: '1 App',
+      label: 'Calls, texts, leads, and pipeline in one place'
     }
   ];
 

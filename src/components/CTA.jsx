@@ -17,30 +17,30 @@ const CTA = () => {
         <div className="cta-grid">
           <div className="cta-content">
             <h2 className="cta-title">
-              Ready for your free website?
+              Ready to stop losing leads and booked jobs?
             </h2>
             <p className="cta-subtitle">
-              We design and launch a custom one-page site in your brand for free. Keep it hosted, updated, and converting for a flat monthly—no contracts or hidden fees.
+              Book a strategy call and we will map where revenue is leaking, then recommend either AI Agent Essentials or the full Mondays Marketing App suite.
             </p>
 
             <div className="cta-benefits">
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Free build, your brand and copy</span>
+                <span>Recover missed calls and inquiries with 24/7 AI response</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Forms, chat, and booking included</span>
+                <span>Improve follow-up, close rate, and customer communication</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Go live in under 10 days</span>
+                <span>Choose AI Agent only or your full Mondays Marketing App suite</span>
               </div>
             </div>
 
             <div className="cta-buttons">
               <Button size="lg" className="cta-primary-button" onClick={scrollToForm}>
-                Claim Your Free Site
+                Book Your Strategy Call
                 <ArrowRight className="button-icon" />
               </Button>
               <Button 
@@ -54,18 +54,18 @@ const CTA = () => {
             </div>
 
             <p className="cta-guarantee">
-              No contracts. No setup fees. Flat monthly hosting and support.
+              Built for home service owners who want fewer dropped leads and more predictable revenue.
             </p>
           </div>
 
           <div className="cta-form-shell" id="demo-form">
             <div className="form-placeholder">
-              <p className="form-placeholder-title">Your form or scheduler goes here</p>
+              <p className="form-placeholder-title">Strategy call form goes here</p>
               <p className="form-placeholder-body">
-                Paste your form embed code or scheduler snippet. Keep this wrapper so buttons can scroll here and tracking params can be added later.
+                Embed your form or scheduler here so visitors can choose the right offer and request a callback.
               </p>
               <p className="form-placeholder-note">
-                When ready, attach link tracking to this form submit and to all buttons that call <code>scrollToForm</code>.
+                Keep this wrapper so all CTA buttons continue to scroll here and tracking can be connected later.
               </p>
             </div>
           </div>

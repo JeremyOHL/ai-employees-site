@@ -6,45 +6,45 @@ const HowItWorks = () => {
     {
       number: '01',
       icon: <Search />,
-      title: 'Claim Your Free Site',
-      description: 'We learn your offer, gather your brand assets, and write copy built to convert.',
+      title: 'Find the Revenue Leaks',
+      description: 'We map your lead flow and identify where you are losing calls, follow-up, and booked jobs.',
       features: [
-        'Brand colors, logo, and messaging',
-        'Offer, headline, and CTA crafted for you',
-        'Page outline in 24-48 hours'
+        'Lead response audit',
+        'Follow-up process breakdown',
+        'Conversion bottleneck report'
       ]
     },
     {
       number: '02',
       icon: <Wrench />,
-      title: 'Design & Build',
-      description: 'We design and build your landing page with forms, chat, and booking wired in.',
+      title: 'Launch AI Agent Essentials',
+      description: 'We deploy AI Agents to handle missed calls, incoming messages, and first-touch qualification.',
       features: [
-        'Mobile-first design in your brand',
-        'Lead forms, chat, and click-to-call',
-        'QA, speed, and SEO basics'
+        'Instant lead response',
+        'AI qualification workflows',
+        'Booking and handoff rules'
       ]
     },
     {
       number: '03',
       icon: <Rocket />,
-      title: 'Launch & Host',
-      description: 'We connect your domain, handle SSL, and go live. Hosting and updates are included.',
+      title: 'Activate the Full App Suite',
+      description: 'When you are ready, we configure the Mondays Marketing App as your all-in-one sales and marketing system.',
       features: [
-        'Done in under 10 days',
-        'Hosting, SSL, backups included',
-        'Simple edits post-launch'
+        'CRM and pipeline setup',
+        'Unified inbox and automations',
+        'Campaign and nurture engine'
       ]
     },
     {
       number: '04',
       icon: <TrendingUp />,
-      title: 'Optimize & Grow',
-      description: 'Add campaigns, automations, and nurture when you want more demand—still no contracts or hidden fees.',
+      title: 'Optimize Close Rate & ROI',
+      description: 'We improve response speed, follow-up consistency, and campaign performance using real pipeline data.',
       features: [
-        'Turn on promos and funnels fast',
-        'Reporting on lead flow and bookings',
-        'Cancel anytime'
+        'Weekly KPI reviews',
+        'Lead source performance tracking',
+        'Continuous automation tuning'
       ]
     }
   ];
@@ -53,9 +53,9 @@ const HowItWorks = () => {
     <section id="how-it-works" className="how-it-works-section">
       <div className="how-it-works-container">
         <div className="section-header">
-          <h2 className="section-title">How Mondays Marketing Systems Works</h2>
+          <h2 className="section-title">How Mondays Marketing Works</h2>
           <p className="section-subtitle">
-            A clear, done-with-you process that gets your operating system live quickly—and keeps it sharp.
+            A practical rollout designed for busy home service owners who need results, not another tool to manage.
           </p>
         </div>
 
@@ -77,9 +77,9 @@ const HowItWorks = () => {
 
         <div className="how-it-works-cta">
           <div className="cta-badges">
-            <div className="badge">✓ Free Consultation</div>
-            <div className="badge">✓ 2-Week Setup</div>
-            <div className="badge">✓ Service Included</div>
+            <div className="badge">✓ Built for Home Services</div>
+            <div className="badge">✓ AI Agent or Full Suite</div>
+            <div className="badge">✓ Done-With-You Setup</div>
           </div>
         </div>
       </div>

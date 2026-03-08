@@ -6,7 +6,7 @@ const LogoLink = ({ className = '' }) => {
     <Link to="/" className={`logo-link ${className}`}>
       <img
         src="https://storage.googleapis.com/funnel-ai-production/chat/Sf7aTUm2lqA6OpM6417Y/brandmark-design-12.png"
-        alt="Mondays Marketing Systems"
+        alt="Mondays Marketing"
         className="logo-image"
       />
     </Link>
