@@ -18,7 +18,7 @@ const FAQ = () => {
     },
     {
       question: 'How quickly can I launch?',
-      answer: 'Lead response setup can go live quickly after onboarding. Full app setup depends on your current process.'
+      answer: 'Most lead response setups can launch as fast as 7 days after onboarding. Full app setup depends on your current process.'
     },
     {
       question: 'Can the app be branded to my business?',

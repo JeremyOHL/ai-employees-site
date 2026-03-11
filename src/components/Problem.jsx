@@ -64,8 +64,8 @@ const Problem = () => {
               ))}
             </div>
             <div className="solution-stat">
-              <span className="stat-number">Done-For-You</span>
-              <span className="stat-text">Setup, execution, and support from one team</span>
+              <span className="stat-number">1 App</span>
+              <span className="stat-text">Minimal owner time, automated follow-up, and clear weekly performance visibility</span>
             </div>
           </div>
         </div>

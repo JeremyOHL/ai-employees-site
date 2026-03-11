@@ -76,11 +76,12 @@ html {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-size: clamp(2rem, 5vw, 4.5rem);
   font-weight: 900;
   line-height: 1.1;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .highlight-text {
@@ -91,12 +92,18 @@ html {
 }
 
 .hero-subtitle {
-  font-size: clamp(1rem, 1.8vw, 1.2rem);
-  font-weight: 600;
-  color: #c8d0da;
-  max-width: 680px;
-  margin: 0 auto 54px;
-  line-height: 1.55;
+  font-size: clamp(2rem, 4.6vw, 3.3rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  max-width: 32ch;
+  margin: 0 auto 48px;
+  line-height: 1.15;
+  text-wrap: balance;
+  background: linear-gradient(135deg, #00d4ff 0%, #9b4dff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .hero-benefits {
@@ -1195,17 +1202,25 @@ html {
   color: #666;
 }
 
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: clamp(1.9rem, 4.4vw, 3.7rem);
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
     margin-bottom: 12px;
+    white-space: normal;
   }
 
   .hero-subtitle {
-    font-size: 1.05rem;
-    max-width: 92%;
-    margin-bottom: 44px;
+    font-size: clamp(1.55rem, 7.5vw, 2.15rem);
+    max-width: 26ch;
+    margin-bottom: 40px;
+    line-height: 1.18;
   }
 
   .hero-benefits {

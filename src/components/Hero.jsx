@@ -78,7 +78,7 @@ const Hero = () => {
               <div className="avatar">AL</div>
             </div>
             <div className="social-proof-text">
-              <strong>Built for</strong> plumbers, HVAC, roofing, electrical, cleaning, and more
+              <strong>Built for</strong> plumbers, HVAC, roofing, electrical, cleaning, landscapers, and more
             </div>
           </div>
 

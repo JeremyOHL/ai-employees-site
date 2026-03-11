@@ -24,7 +24,7 @@ const Pricing = () => {
     },
     {
       name: 'Mondays Marketing App Suite',
-      price: 697,
+      price: 497,
       description: 'A complete business suite for communication, CRM, automation, and reporting.',
       features: [
         'Everything in AI Agent Essentials',
