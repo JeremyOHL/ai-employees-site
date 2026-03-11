@@ -7,21 +7,21 @@ const HowItWorks = () => {
       number: '01',
       icon: <Search />,
       title: 'Find the Revenue Leaks',
-      description: 'We map your lead flow and identify where you are losing calls, follow-up, and booked jobs.',
+      description: 'We map your lead flow and find where jobs are slipping through.',
       features: [
         'Lead response audit',
         'Follow-up process breakdown',
-        'Conversion bottleneck report'
+        'Clear list of what to fix first'
       ]
     },
     {
       number: '02',
       icon: <Wrench />,
       title: 'Launch AI Agent Essentials',
-      description: 'We deploy AI Agents to handle missed calls, incoming messages, and first-touch qualification.',
+      description: 'We launch AI to handle missed calls, new messages, and first response.',
       features: [
         'Instant lead response',
-        'AI qualification workflows',
+        'AI lead qualification',
         'Booking and handoff rules'
       ]
     },
@@ -29,18 +29,18 @@ const HowItWorks = () => {
       number: '03',
       icon: <Rocket />,
       title: 'Activate the Full App Suite',
-      description: 'When you are ready, we configure the Mondays Marketing App as your all-in-one sales and marketing system.',
+      description: 'When ready, we set up your full app for sales, follow-up, and growth.',
       features: [
         'CRM and pipeline setup',
         'Unified inbox and automations',
-        'Campaign and nurture engine'
+        'Campaign setup and follow-up engine'
       ]
     },
     {
       number: '04',
       icon: <TrendingUp />,
       title: 'Optimize Close Rate & ROI',
-      description: 'We improve response speed, follow-up consistency, and campaign performance using real pipeline data.',
+      description: 'We use real pipeline data to improve response, follow-up, and close rate.',
       features: [
         'Weekly KPI reviews',
         'Lead source performance tracking',
@@ -55,7 +55,7 @@ const HowItWorks = () => {
         <div className="section-header">
           <h2 className="section-title">How Mondays Marketing Works</h2>
           <p className="section-subtitle">
-            A practical rollout designed for busy home service owners who need results, not another tool to manage.
+            A simple rollout for busy owners who want results without tool chaos.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const HowItWorks = () => {
         <div className="how-it-works-cta">
           <div className="cta-badges">
             <div className="badge">✓ Built for Home Services</div>
-            <div className="badge">✓ AI Agent or Full Suite</div>
+            <div className="badge">✓ Clear Plans That Scale</div>
             <div className="badge">✓ Done-With-You Setup</div>
           </div>
         </div>

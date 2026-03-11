@@ -6,32 +6,32 @@ const Features = () => {
     {
       icon: <LayoutDashboard />,
       title: 'AI Missed-Call Recovery',
-      description: 'When you miss a call, your AI Agent follows up instantly by text so leads do not move on.'
+      description: 'When you miss a call, AI texts back right away so the lead stays warm.'
     },
     {
       icon: <Wand2 />,
       title: 'AI Qualification & Booking',
-      description: 'AI Agents ask the right questions, pre-qualify prospects, and route serious opportunities to booking.'
+      description: 'AI asks key questions, pre-qualifies prospects, and sends real buyers to booking.'
     },
     {
       icon: <Megaphone />,
       title: 'Lead Reactivation Campaigns',
-      description: 'Turn old estimates and past leads into booked jobs with automated text and email reactivation.'
+      description: 'Re-engage old estimates with automated text and email follow-up.'
     },
     {
       icon: <Calendar />,
       title: 'Calendar + No-Show Prevention',
-      description: 'Self-booking with reminders and confirmations to reduce drop-off before the job.'
+      description: 'Use reminders and confirmations to cut no-shows.'
     },
     {
       icon: <BarChart3 />,
       title: 'Pipeline & Revenue Visibility',
-      description: 'Track every lead from first contact to close so you can see where deals stall and fix it fast.'
+      description: 'See where jobs stall and fix it quickly.'
     },
     {
       icon: <Headset />,
       title: 'All-In-One Mondays Marketing App',
-      description: 'Full business suite with CRM, communications, automations, marketing, and reporting in one place.'
+      description: 'CRM, communication, automation, and reporting in one app.'
     }
   ];
 
@@ -41,7 +41,7 @@ const Features = () => {
         <div className="section-header">
           <h2 className="section-title">Your Systems Do the Heavy Lifting</h2>
           <p className="section-subtitle">
-            Start with AI Agents or run your entire operation inside the Mondays Marketing App. Either way, every lead gets handled.
+            We help you fix lead response first, then scale with one system your team can actually use.
           </p>
         </div>
 

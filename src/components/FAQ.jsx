@@ -9,16 +9,16 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: 'What are the two offerings?',
-      answer: 'You can choose AI Agent Essentials to fix lead response and follow-up, or the full Mondays Marketing App suite to run your communications, CRM, automations, and marketing in one place.'
+      question: 'Which plan should I start with?',
+      answer: 'Start with your biggest problem. Most owners begin with lead response and follow-up, then expand.'
     },
     {
       question: 'Who is this built for?',
-      answer: 'Small home service businesses that need to stop losing leads, improve close rates, and tighten customer communication without adding headcount.'
+      answer: 'Small home service businesses that want faster lead handling and better close rates without adding staff.'
     },
     {
       question: 'How quickly can I launch?',
-      answer: 'Most clients can activate AI Agent Essentials quickly after onboarding. Full suite setup depends on your workflows, pipeline, and campaign needs.'
+      answer: 'Lead response setup can go live quickly after onboarding. Full app setup depends on your current process.'
     },
     {
       question: 'Can the app be branded to my business?',
@@ -30,7 +30,7 @@ const FAQ = () => {
     },
     {
       question: 'What does the full Mondays Marketing App include?',
-      answer: 'A complete business suite with messaging, CRM, automations, pipelines, campaigns, booking workflows, and performance reporting.'
+      answer: 'Messaging, CRM, automations, pipelines, campaigns, booking, and reporting in one place.'
     },
     {
       question: 'Do I need to stitch together multiple tools?',
@@ -38,7 +38,7 @@ const FAQ = () => {
     },
     {
       question: 'What if I want to start with AI Agents only?',
-      answer: 'That is common. We can start with AI Agent Essentials and expand into the full app suite when you are ready.'
+      answer: 'That is common. Start there, then expand when your team is ready.'
     }
   ];
 
@@ -48,7 +48,7 @@ const FAQ = () => {
         <div className="section-header">
           <h2 className="section-title">Frequently Asked Questions</h2>
           <p className="section-subtitle">
-            Straight answers about AI Agents and the Mondays Marketing App for home service businesses.
+            Quick answers for busy home service owners.
           </p>
         </div>
 

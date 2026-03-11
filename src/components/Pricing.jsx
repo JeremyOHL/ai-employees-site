@@ -11,28 +11,28 @@ const Pricing = () => {
     {
       name: 'AI Agent Essentials',
       price: 297,
-      description: 'For owners who want to stop losing leads from missed calls, slow replies, and inconsistent follow-up.',
+      description: 'Best for owners who need faster lead response and better follow-up.',
       features: [
-        'AI missed-call text-back',
-        'Instant AI response to new lead inquiries',
-        'AI lead qualification and routing',
-        'Booking and handoff workflows',
-        'Basic pipeline visibility',
-        'Month-to-month flexibility'
+        'Missed-call text back',
+        'Fast response to new inquiries',
+        'Lead qualification and routing',
+        'Booking and handoff rules',
+        'Basic pipeline view',
+        'Month-to-month'
       ],
       popular: false
     },
     {
       name: 'Mondays Marketing App Suite',
       price: 697,
-      description: 'Your full business suite: communications, CRM, automations, marketing, and reporting in one branded app.',
+      description: 'A complete business suite for communication, CRM, automation, and reporting.',
       features: [
         'Everything in AI Agent Essentials',
-        'Unified inbox for calls, SMS, chat, and forms',
-        'Full CRM and opportunity pipeline management',
-        'Automated follow-up and nurture campaigns',
-        'Calendar, reminders, and no-show prevention',
-        'Dashboards, attribution, and performance reporting',
+        'One inbox for calls, texts, chat, and forms',
+        'Full CRM and pipeline management',
+        'Automated follow-up campaigns',
+        'Calendar, reminders, and no-show protection',
+        'Dashboards and performance reporting',
         'Priority support'
       ],
       popular: true
@@ -43,9 +43,9 @@ const Pricing = () => {
     <section id="pricing" className="pricing-section">
       <div className="pricing-container">
         <div className="section-header">
-          <h2 className="section-title">Two Offers. One Goal: More Booked Jobs.</h2>
+          <h2 className="section-title">Simple Pricing for Busy Owners</h2>
           <p className="section-subtitle">
-            Start with AI Agent Essentials or run your operation on the full Mondays Marketing App suite.
+            Pick what fits now. Upgrade when your team is ready.
           </p>
         </div>
 
@@ -81,15 +81,15 @@ const Pricing = () => {
                 size="lg"
                 onClick={scrollToForm}
               >
-                Get Started
+                Start Here
               </Button>
             </div>
           ))}
         </div>
 
         <div className="pricing-note">
-          <p>✓ Built for small home service businesses focused on lead response and close rate</p>
-          <p>✓ No platform confusion, no patchwork tools, and no leads left behind</p>
+          <p>✓ Built for small home service businesses</p>
+          <p>✓ Clear setup, clear ownership, clear results</p>
         </div>
       </div>
     </section>

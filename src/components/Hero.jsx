@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { Phone, MessageSquare, Mail, Clock, CheckCircle2 } from 'lucide-react';
+import { Phone, MessageSquare, Clock, CheckCircle2 } from 'lucide-react';
 import LogoLink from './LogoLink';
 
 const Hero = () => {
@@ -23,31 +23,31 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            Stop losing leads after hours.
-            <span className="highlight-text"> AI Agents and the Mondays Marketing App for home services.</span>
+            Turn missed leads into booked jobs.
+            <span className="highlight-text"> We help home service owners reply faster, follow up every time, and win more jobs.</span>
           </h1>
           
           <p className="hero-subtitle">
-            If missed calls, slow follow-up, and scattered tools are costing you jobs, we fix it. Choose AI Agent Essentials or run your whole growth engine in one app.
+            Missed calls and slow follow-up cost real money. We set up and run the system so every lead gets handled.
           </p>
 
           {/* Key Benefits */}
           <div className="hero-benefits">
             <div className="benefit-item">
               <Phone className="benefit-icon" />
-              <span>24/7 AI responds to missed calls and new leads in seconds</span>
+              <span>Reply to leads fast, even after hours</span>
             </div>
             <div className="benefit-item">
               <MessageSquare className="benefit-icon" />
-              <span>Every text, call, web lead, and chat in one inbox</span>
+              <span>Keep calls, texts, forms, and chat in one inbox</span>
             </div>
             <div className="benefit-item">
               <Clock className="benefit-icon" />
-              <span>Automated follow-up so prospects never go cold</span>
+              <span>Follow up on time so deals do not go cold</span>
             </div>
             <div className="benefit-item">
               <CheckCircle2 className="benefit-icon" />
-              <span>Choose AI Agent only or the full Mondays Marketing App suite</span>
+              <span>Simple setup, clear numbers, and ongoing support</span>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ const Hero = () => {
               className="cta-primary"
               onClick={scrollToForm}
             >
-              Book a Growth Call
+              Book My Call
             </Button>
             <Button 
               size="lg" 
@@ -66,7 +66,7 @@ const Hero = () => {
               className="cta-secondary"
               onClick={scrollToPricing}
             >
-              Compare Solutions
+              See Pricing
             </Button>
           </div>
 

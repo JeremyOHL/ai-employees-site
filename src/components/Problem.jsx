@@ -3,19 +3,19 @@ import { X, Check } from 'lucide-react';
 
 const Problem = () => {
   const problems = [
-    'Missed calls and late replies send hot leads to your competitors',
-    'No-shows and weak follow-up leave open estimates sitting in limbo',
-    'Leads come from too many places and nobody sees the full pipeline',
-    'Manual admin steals owner time from sales, crews, and growth',
-    'Without clear reporting, you cannot spot where money is leaking'
+    'Missed calls and late replies send leads to competitors',
+    'No-shows and weak follow-up leave estimates hanging',
+    'Leads are scattered, so your pipeline is unclear',
+    'Admin work steals time from sales and operations',
+    'Without clear numbers, money leaks go unseen'
   ];
 
   const solutions = [
-    'AI Agents answer, qualify, and respond instantly 24/7',
-    'Automations handle reminders, reactivation, and nurture at scale',
-    'One inbox for calls, texts, forms, and chat conversations',
-    'Pipeline visibility from first touch to closed job',
-    'Mondays Marketing App gives your team one operating system'
+    'AI Agents respond, qualify, and route leads 24/7',
+    'Automations handle reminders and follow-up',
+    'One inbox for calls, texts, forms, and chat',
+    'Track each lead from first contact to closed job',
+    'Run your team from one clear system'
   ];
 
   return (
@@ -24,7 +24,7 @@ const Problem = () => {
         <div className="section-header">
           <h2 className="section-title">Where Home Service Businesses Leak Revenue</h2>
           <p className="section-subtitle">
-            You do not have a lead problem. You have a speed-to-lead, follow-up, and conversion problem. We fix the system behind the sale.
+            You do not need more leads first. You need faster response, better follow-up, and clear visibility. We fix that.
           </p>
         </div>
 
@@ -64,8 +64,8 @@ const Problem = () => {
               ))}
             </div>
             <div className="solution-stat">
-              <span className="stat-number">2 Offers</span>
-              <span className="stat-text">AI Agent Essentials or full Mondays Marketing App suite</span>
+              <span className="stat-number">Done-For-You</span>
+              <span className="stat-text">Setup, execution, and support from one team</span>
             </div>
           </div>
         </div>

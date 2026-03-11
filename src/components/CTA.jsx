@@ -20,27 +20,27 @@ const CTA = () => {
               Ready to stop losing leads and booked jobs?
             </h2>
             <p className="cta-subtitle">
-              Book a strategy call and we will map where revenue is leaking, then recommend either AI Agent Essentials or the full Mondays Marketing App suite.
+              Book a strategy call. We will show you exactly where leads are slipping and what to fix first.
             </p>
 
             <div className="cta-benefits">
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Recover missed calls and inquiries with 24/7 AI response</span>
+                <span>Recover missed calls and online inquiries</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Improve follow-up, close rate, and customer communication</span>
+                <span>Improve follow-up and close rate</span>
               </div>
               <div className="cta-benefit">
                 <CheckCircle2 className="benefit-icon" />
-                <span>Choose AI Agent only or your full Mondays Marketing App suite</span>
+                <span>Get a clear rollout plan your team can run</span>
               </div>
             </div>
 
             <div className="cta-buttons">
               <Button size="lg" className="cta-primary-button" onClick={scrollToForm}>
-                Book Your Strategy Call
+                Get My Plan
                 <ArrowRight className="button-icon" />
               </Button>
               <Button 
@@ -49,12 +49,12 @@ const CTA = () => {
                 className="cta-secondary-button"
                 onClick={scrollToPricing}
               >
-                View Pricing
+                See Plans
               </Button>
             </div>
 
             <p className="cta-guarantee">
-              Built for home service owners who want fewer dropped leads and more predictable revenue.
+              Built for owners who want steady lead flow and predictable revenue.
             </p>
           </div>
 

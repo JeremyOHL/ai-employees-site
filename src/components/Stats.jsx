@@ -6,7 +6,7 @@ const Stats = () => {
     {
       icon: <TrendingUp className="stat-icon" />,
       value: '<60 sec',
-      label: 'Typical first response with AI Agents'
+      label: 'Typical first response time'
     },
     {
       icon: <Clock className="stat-icon" />,
@@ -15,8 +15,8 @@ const Stats = () => {
     },
     {
       icon: <DollarSign className="stat-icon" />,
-      value: '2 Paths',
-      label: 'AI Agent only or full app suite'
+      value: 'Fewer Drops',
+      label: 'Stronger follow-up and fewer lost leads'
     },
     {
       icon: <Users className="stat-icon" />,
