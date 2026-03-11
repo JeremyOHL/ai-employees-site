@@ -24,11 +24,10 @@ const Hero = () => {
         <div className="hero-content">
           <h1 className="hero-title">
             Turn missed leads into booked jobs.
-            <span className="highlight-text"> We help home service owners reply faster, follow up every time, and win more jobs.</span>
           </h1>
           
           <p className="hero-subtitle">
-            Missed calls and slow follow-up cost real money. We set up and run the system so every lead gets handled.
+            We help home service owners respond faster and follow up every time.
           </p>
 
           {/* Key Benefits */}

@@ -79,7 +79,7 @@ html {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 900;
   line-height: 1.1;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
   letter-spacing: -0.02em;
 }
 
@@ -91,11 +91,12 @@ html {
 }
 
 .hero-subtitle {
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
-  color: #b0b0b0;
-  max-width: 800px;
-  margin: 0 auto 50px;
-  line-height: 1.7;
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-weight: 600;
+  color: #c8d0da;
+  max-width: 680px;
+  margin: 0 auto 54px;
+  line-height: 1.55;
 }
 
 .hero-benefits {
@@ -1198,6 +1199,13 @@ html {
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.05rem;
+    max-width: 92%;
+    margin-bottom: 44px;
   }
 
   .hero-benefits {
