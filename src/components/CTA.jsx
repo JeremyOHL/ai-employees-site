@@ -17,7 +17,7 @@ const CTA = () => {
         <div className="cta-grid">
           <div className="cta-content">
             <h2 className="cta-title">
-              Ready to stop losing leads and booked jobs?
+              Ready to stop losing leads and book more jobs?
             </h2>
             <p className="cta-subtitle">
               Book a strategy call. We will show you exactly where leads are slipping and what to fix first.
