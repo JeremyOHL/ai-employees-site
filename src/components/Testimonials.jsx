@@ -28,7 +28,7 @@ const Testimonials = () => {
       name: 'Lisa Chen',
       company: 'Pro Electrical Solutions',
       role: 'Owner',
-      text: 'We keep our brand while the Mondays team runs the tech. It feels like an in-house team without extra payroll.',
+      text: 'Our team finally has one place to run lead follow-up and communication. It feels like an in-house team without extra payroll.',
       avatar: 'LC'
     },
     {

@@ -29,7 +29,7 @@ const HowItWorks = () => {
       number: '03',
       icon: <Rocket />,
       title: 'Activate the Full App Suite',
-      description: 'When ready, we set up your full app for sales, follow-up, and growth.',
+      description: 'When ready, we set up your team’s full internal app for sales, follow-up, and growth.',
       features: [
         'CRM and pipeline setup',
         'Unified inbox and automations',

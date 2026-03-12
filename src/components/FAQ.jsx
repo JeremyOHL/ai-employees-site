@@ -21,8 +21,8 @@ const FAQ = () => {
       answer: 'Most lead response setups can launch as fast as 7 days after onboarding. Full app setup depends on your current process.'
     },
     {
-      question: 'Can the app be branded to my business?',
-      answer: 'Yes. Your customers see your business brand and communications, not a third-party platform.'
+      question: 'Is this app for my team or for my customers?',
+      answer: 'This app is for you and your team to manage leads, follow-up, and client communication. Your customers do not log in or use this app.'
     },
     {
       question: 'What problems does AI Agent Essentials solve first?',
