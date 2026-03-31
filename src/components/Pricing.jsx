@@ -1,41 +1,77 @@
 import React from 'react';
-import { Button } from './ui/button';
-import { Check } from 'lucide-react';
+import { Check, Zap, Users, Star } from 'lucide-react';
 
-const Pricing = () => {
-  const scrollToForm = () => {
-    document.getElementById('demo-form')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
+const Pricing = ({ openModal }) => {
   const plans = [
     {
-      name: 'AI Agent Essentials',
-      price: 297,
-      description: 'Best for owners who need faster lead response and better follow-up.',
+      name: 'Self-Starter',
+      badge: 'DIY Platform Access',
+      price: 97,
+      icon: <Zap size={24} />,
+      description: 'Full access to the Mondays Marketing Systems App. You are in the driver\'s seat — build, manage, and grow your business on your own timeline.',
       features: [
-        'Missed-call text back',
-        'Fast response to new inquiries',
-        'Lead qualification and routing',
-        'Booking and handoff rules',
-        'Basic pipeline view',
-        'Month-to-month'
+        'Complete platform access — all tools included',
+        'CRM & full contact management',
+        'Two-way SMS, email & phone calling',
+        'Website & funnel builder',
+        'Calendar & appointment scheduling',
+        'Automation workflow builder',
+        'Email & SMS marketing campaigns',
+        'Reputation management & review requests',
+        'Social media planner & scheduler',
+        'Reporting & analytics dashboards',
+        'Mobile app included',
+        'Community & email support'
       ],
-      popular: false
+      popular: false,
+      ctaLabel: 'Get Started — $97/mo',
+      accentColor: '#00d4ff'
     },
     {
-      name: 'Mondays Marketing App Suite',
-      price: 497,
-      description: 'A complete internal business suite for your team to manage communication, CRM, automation, and reporting.',
+      name: 'Growth Partner',
+      badge: 'Done With You',
+      price: 297,
+      icon: <Users size={24} />,
+      description: 'Everything in Self-Starter plus hands-on guidance. We build alongside you — strategy sessions, system setup support, and expert coaching every step of the way.',
       features: [
-        'Everything in AI Agent Essentials',
-        'One inbox for calls, texts, chat, and forms',
-        'Full CRM and pipeline management',
-        'Automated follow-up campaigns',
-        'Calendar, reminders, and no-show protection',
-        'Dashboards and performance reporting',
-        'Priority support'
+        'Everything in Self-Starter',
+        'Onboarding strategy session',
+        'Done-with-you system buildout',
+        'Dedicated setup support (calls + messaging)',
+        'AI chatbot & missed-call text back setup',
+        'Automated lead follow-up campaigns built with you',
+        'Pipeline and workflow setup coaching',
+        'Reputation & review campaign configuration',
+        'Monthly review & optimization calls',
+        'Priority support (faster response times)'
       ],
-      popular: true
+      popular: false,
+      ctaLabel: 'Get Started — $297/mo',
+      accentColor: '#9b4dff'
+    },
+    {
+      name: 'White Glove',
+      badge: 'Done For You',
+      price: 497,
+      icon: <Star size={24} />,
+      description: 'We handle everything. Our team builds your entire system — custom automations, campaigns, pipelines, and integrations — while you focus on running your business.',
+      features: [
+        'Everything in Growth Partner',
+        'Full done-for-you system build',
+        'Custom automation workflows',
+        'Lead nurture & follow-up sequences',
+        'Reputation management campaign setup',
+        'Social media scheduling configured',
+        'Funnel & landing page build',
+        'Integrations with your existing tools',
+        'Missed call, AI chat & booking configured',
+        'Ongoing monthly optimization & updates',
+        'Dedicated account manager',
+        'White-glove onboarding experience'
+      ],
+      popular: true,
+      ctaLabel: 'Get Started — $497/mo',
+      accentColor: '#9b4dff'
     }
   ];
 
@@ -43,21 +79,26 @@ const Pricing = () => {
     <section id="pricing" className="pricing-section">
       <div className="pricing-container">
         <div className="section-header">
-          <h2 className="section-title">Simple Pricing for Busy Owners</h2>
+          <p className="section-eyebrow">Flexible Plans for Every Stage</p>
+          <h2 className="section-title">One Complete Platform. Three Ways to Get Started.</h2>
           <p className="section-subtitle">
-            Pick what fits now. Upgrade when your team is ready.
+            Every plan gives you full access to the Mondays Marketing Systems App — the difference is how much we help you build it out.
           </p>
         </div>
 
-        <div className="pricing-grid">
+        <div className="pricing-grid-three">
           {plans.map((plan, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`pricing-card ${plan.popular ? 'popular' : ''}`}
             >
               {plan.popular && <div className="popular-badge">Most Popular</div>}
-              
+
               <div className="pricing-header">
+                <div className="plan-icon-wrap" style={{ color: plan.accentColor }}>
+                  {plan.icon}
+                </div>
+                <div className="plan-tier-badge">{plan.badge}</div>
                 <h3 className="plan-name">{plan.name}</h3>
                 <div className="plan-price">
                   <span className="currency">$</span>
@@ -76,20 +117,31 @@ const Pricing = () => {
                 ))}
               </div>
 
-              <Button 
-                className={plan.popular ? 'pricing-cta popular-cta' : 'pricing-cta'}
-                size="lg"
-                onClick={scrollToForm}
+              <button
+                className={`pricing-cta ${plan.popular ? 'popular-cta' : ''}`}
+                onClick={() => openModal(plan.name)}
               >
-                Start Here
-              </Button>
+                {plan.ctaLabel}
+              </button>
+
+              <p className="pricing-card-note">No contracts. Cancel anytime.</p>
             </div>
           ))}
         </div>
 
-        <div className="pricing-note">
-          <p>✓ Built for small home service businesses</p>
-          <p>✓ Clear setup, clear ownership, clear results</p>
+        <div className="pricing-comparison-note">
+          <div className="comparison-item">
+            <Check size={18} className="comparison-check" />
+            <span>All plans include the full Mondays Marketing Systems App platform</span>
+          </div>
+          <div className="comparison-item">
+            <Check size={18} className="comparison-check" />
+            <span>Built specifically for home service businesses</span>
+          </div>
+          <div className="comparison-item">
+            <Check size={18} className="comparison-check" />
+            <span>Upgrade or adjust your plan at any time</span>
+          </div>
         </div>
       </div>
     </section>

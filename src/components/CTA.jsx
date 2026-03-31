@@ -1,74 +1,55 @@
 import React from 'react';
-import { Button } from './ui/button';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
-const CTA = () => {
+const CTA = ({ openModal }) => {
   const scrollToPricing = () => {
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const scrollToForm = () => {
-    document.getElementById('demo-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <section id="cta" className="cta-section">
       <div className="cta-container">
-        <div className="cta-grid">
-          <div className="cta-content">
-            <h2 className="cta-title">
-              Ready to stop losing leads and book more jobs?
-            </h2>
-            <p className="cta-subtitle">
-              Book a strategy call. We will show you exactly where leads are slipping and what to fix first.
-            </p>
+        <div className="cta-inner">
+          <p className="cta-eyebrow">Ready to Build Your System?</p>
+          <h2 className="cta-title">
+            Stop Losing Leads. Start Running a Tighter Business.
+          </h2>
+          <p className="cta-subtitle">
+            The Mondays Marketing Systems App gives you everything you need — CRM, automation, communication, scheduling, marketing, and reporting — all in one platform built for home service businesses.
+          </p>
 
-            <div className="cta-benefits">
-              <div className="cta-benefit">
-                <CheckCircle2 className="benefit-icon" />
-                <span>Recover missed calls and online inquiries</span>
-              </div>
-              <div className="cta-benefit">
-                <CheckCircle2 className="benefit-icon" />
-                <span>Improve follow-up and close rate</span>
-              </div>
-              <div className="cta-benefit">
-                <CheckCircle2 className="benefit-icon" />
-                <span>Get a clear rollout plan your team can run</span>
-              </div>
+          <div className="cta-benefits">
+            <div className="cta-benefit">
+              <CheckCircle2 className="benefit-icon" />
+              <span>Replace 10+ tools with one unified system</span>
             </div>
-
-            <div className="cta-buttons">
-              <Button size="lg" className="cta-primary-button" onClick={scrollToForm}>
-                Get My Plan
-                <ArrowRight className="button-icon" />
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="cta-secondary-button"
-                onClick={scrollToPricing}
-              >
-                See Plans
-              </Button>
+            <div className="cta-benefit">
+              <CheckCircle2 className="benefit-icon" />
+              <span>Never miss a lead with AI-powered follow-up</span>
             </div>
-
-            <p className="cta-guarantee">
-              Built for owners who want steady lead flow and predictable revenue.
-            </p>
-          </div>
-
-          <div className="cta-form-shell" id="demo-form">
-            <div className="form-placeholder">
-              <p className="form-placeholder-title">Strategy call form goes here</p>
-              <p className="form-placeholder-body">
-                Embed your form or scheduler here so visitors can choose the right offer and request a callback.
-              </p>
-              <p className="form-placeholder-note">
-                Keep this wrapper so all CTA buttons continue to scroll here and tracking can be connected later.
-              </p>
+            <div className="cta-benefit">
+              <CheckCircle2 className="benefit-icon" />
+              <span>Choose the level of support that fits your business</span>
+            </div>
+            <div className="cta-benefit">
+              <CheckCircle2 className="benefit-icon" />
+              <span>No long-term contracts — start and scale at your pace</span>
             </div>
           </div>
+
+          <div className="cta-buttons">
+            <button className="cta-primary-button" onClick={() => openModal()}>
+              Get My Info Package
+              <ArrowRight size={18} className="button-icon" />
+            </button>
+            <button className="cta-secondary-button" onClick={scrollToPricing}>
+              View All Plans
+            </button>
+          </div>
+
+          <p className="cta-guarantee">
+            We'll send you a personalized overview, demo video, and everything you need to make a confident decision — no pressure, no obligation.
+          </p>
         </div>
       </div>
     </section>

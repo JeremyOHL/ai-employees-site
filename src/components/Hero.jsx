@@ -1,15 +1,10 @@
 import React from 'react';
-import { Button } from './ui/button';
-import { Phone, MessageSquare, Clock, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Phone, MessageSquare, Clock, CheckCircle2 } from 'lucide-react';
 import LogoLink from './LogoLink';
 
-const Hero = () => {
+const Hero = ({ openModal }) => {
   const scrollToPricing = () => {
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const scrollToForm = () => {
-    document.getElementById('demo-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -22,51 +17,51 @@ const Hero = () => {
 
         {/* Hero Content */}
         <div className="hero-content">
+          <div className="hero-badge">The Complete Platform for Home Service Businesses</div>
+
           <h1 className="hero-title">
-            Turn missed leads into booked jobs.
+            Run Your Entire Business from One Powerful App.
           </h1>
-          
+
           <p className="hero-subtitle">
-            We help home service owners respond faster and follow up every time.
+            CRM, automation, messaging, scheduling, marketing, payments, and more — all in the Mondays Marketing Systems App.
           </p>
 
           {/* Key Benefits */}
           <div className="hero-benefits">
             <div className="benefit-item">
               <Phone className="benefit-icon" />
-              <span>Reply to leads fast, even after hours</span>
+              <span>Never miss a lead — AI follows up instantly</span>
             </div>
             <div className="benefit-item">
               <MessageSquare className="benefit-icon" />
-              <span>Keep calls, texts, forms, and chat in one inbox</span>
+              <span>All calls, texts, emails & chats in one inbox</span>
             </div>
             <div className="benefit-item">
               <Clock className="benefit-icon" />
-              <span>Follow up on time so deals do not go cold</span>
+              <span>Automated follow-up so no deal goes cold</span>
             </div>
             <div className="benefit-item">
               <CheckCircle2 className="benefit-icon" />
-              <span>Simple setup, clear numbers, and ongoing support</span>
+              <span>Choose your level — DIY, guided, or fully done-for-you</span>
             </div>
           </div>
 
           {/* CTA Buttons */}
           <div className="hero-cta">
-            <Button 
-              size="lg" 
-              className="cta-primary"
-              onClick={scrollToForm}
+            <button
+              className="cta-primary hero-primary-btn"
+              onClick={() => openModal()}
             >
-              Book My Call
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
+              Get My Info Package
+              <ArrowRight size={18} className="button-icon" />
+            </button>
+            <button
               className="cta-secondary"
               onClick={scrollToPricing}
             >
-              See Pricing
-            </Button>
+              See Pricing & Plans
+            </button>
           </div>
 
           {/* Social Proof */}
@@ -81,7 +76,6 @@ const Hero = () => {
               <strong>Built for</strong> plumbers, HVAC, roofing, electrical, cleaning, landscapers, and more
             </div>
           </div>
-
         </div>
       </div>
     </section>

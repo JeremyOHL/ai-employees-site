@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hero from '../components/Hero';
 import Stats from '../components/Stats';
 import Problem from '../components/Problem';
@@ -9,20 +9,38 @@ import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
+import LeadFormModal from '../components/LeadFormModal';
 
 const LandingPage = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState('');
+
+  const openModal = (plan = '') => {
+    setSelectedPlan(plan);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <div className="landing-page">
-      <Hero />
+      <Hero openModal={openModal} />
       <Stats />
       <Problem />
       <Features />
       <HowItWorks />
-      <Pricing />
+      <Pricing openModal={openModal} />
       <Testimonials />
       <FAQ />
-      <CTA />
+      <CTA openModal={openModal} />
       <Footer />
+      <LeadFormModal
+        isOpen={modalOpen}
+        onClose={closeModal}
+        selectedPlan={selectedPlan}
+      />
     </div>
   );
 };
