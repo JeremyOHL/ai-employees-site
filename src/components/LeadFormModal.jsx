@@ -82,16 +82,26 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
 
     setIsSubmitting(true);
 
-    // TODO: Connect to your email service.
-    // Example with Formspree:
-    //   await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify(formData)
-    //   });
-    // Or use EmailJS, your own API endpoint, Zapier webhook, etc.
+    try {
+      await fetch('https://services.leadconnectorhq.com/hooks/Sf7aTUm2lqA6OpM6417Y/webhook-trigger/ca74ac7f-2932-40c7-9f05-90b68bad5ee2', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: formData.phone,
+          name: formData.businessName,
+          customField: {
+            business_type: formData.businessType,
+            selected_plan: formData.plan
+          }
+        })
+      });
+    } catch (err) {
+      console.error('Webhook error:', err);
+    }
 
-    await new Promise(resolve => setTimeout(resolve, 1400));
     setIsSubmitting(false);
     setIsSubmitted(true);
   };
