@@ -17,14 +17,14 @@ const Hero = ({ openModal }) => {
 
         {/* Hero Content */}
         <div className="hero-content">
-          <div className="hero-badge">Custom Business Integrations & Automation</div>
+          <div className="hero-badge">AI-Powered Business Automation</div>
 
           <h1 className="hero-title">
-            Your Business Runs Smoother When the Right Systems Are Working For You.
+            Stop Doing Everything Manually.
           </h1>
 
           <p className="hero-subtitle">
-            Mondays Marketing Systems builds custom integrations that handle the busywork — so you and your team can focus on what actually grows your business.
+            We build AI-powered systems that follow up with leads, handle customer questions, and run your back office — automatically.
           </p>
 
           {/* Key Benefits */}
