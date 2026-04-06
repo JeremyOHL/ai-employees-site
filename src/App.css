@@ -76,13 +76,12 @@ html {
 }
 
 .hero-title {
-  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-size: clamp(2rem, 3.6vw, 3.8rem);
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 18px;
   letter-spacing: -0.02em;
-  white-space: normal;
-  max-width: 18ch;
+  white-space: nowrap;
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,7 +94,7 @@ html {
 }
 
 .hero-subtitle {
-  font-size: clamp(2rem, 4.6vw, 3.3rem);
+  font-size: clamp(1.75rem, 4.35vw, 3.05rem);
   font-weight: 800;
   letter-spacing: -0.01em;
   max-width: 32ch;
@@ -1207,7 +1206,7 @@ html {
 
 @media (max-width: 1200px) {
   .hero-title {
-    font-size: clamp(1.9rem, 4.4vw, 3.7rem);
+    font-size: clamp(1.8rem, 3.2vw, 3.4rem);
   }
 }
 
@@ -1220,7 +1219,7 @@ html {
   }
 
   .hero-subtitle {
-    font-size: clamp(1.55rem, 7.5vw, 2.15rem);
+    font-size: clamp(1.3rem, 7.5vw, 1.9rem);
     max-width: 26ch;
     margin-bottom: 40px;
     line-height: 1.18;
