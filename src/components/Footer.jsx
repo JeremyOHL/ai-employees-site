@@ -17,21 +17,24 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Quick Links</h4>
             <ul className="footer-links">
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#features">Features</a></li>
+              <li><a href="#problem">How We Help</a></li>
+              <li><a href="#features">Solutions</a></li>
               <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#pricing">Pricing</a></li>
               <li><a href="#testimonials">Testimonials</a></li>
             </ul>
           </div>
 
           {/* Services */}
           <div className="footer-section">
-            <h4 className="footer-heading">Services</h4>
+            <h4 className="footer-heading">What We Build</h4>
             <ul className="footer-links">
-              <li><a href="#pricing">AI Agent Essentials</a></li>
-              <li><a href="#pricing">Mondays Marketing App Suite</a></li>
-              <li><a href="#features">Automation & Follow-Up</a></li>
-              <li><a href="#features">Pipeline & Reporting</a></li>
+              <li><a href="#features">AI Lead Response</a></li>
+              <li><a href="#features">Automated Follow-Up</a></li>
+              <li><a href="#features">Appointment Reminders</a></li>
+              <li><a href="#features">AI Customer Chat</a></li>
+              <li><a href="#features">Review Automation</a></li>
+              <li><a href="#features">Reporting & Dashboards</a></li>
             </ul>
           </div>
 
