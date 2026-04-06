@@ -1,27 +1,27 @@
 import React from 'react';
-import { TrendingUp, Clock, DollarSign, Users } from 'lucide-react';
+import { Zap, Clock, Settings, TrendingUp } from 'lucide-react';
 
 const Stats = () => {
   const stats = [
     {
-      icon: <TrendingUp className="stat-icon" />,
-      value: '<60 sec',
-      label: 'Typical first response time'
+      icon: <Zap className="stat-icon" />,
+      value: 'Instant',
+      label: 'Automated lead response — day or night'
     },
     {
       icon: <Clock className="stat-icon" />,
       value: '24/7',
-      label: 'Lead response coverage after hours'
+      label: 'Systems that work even when you don\'t'
     },
     {
-      icon: <DollarSign className="stat-icon" />,
-      value: 'Fewer Drops',
-      label: 'Stronger follow-up and fewer lost leads'
+      icon: <Settings className="stat-icon" />,
+      value: 'Custom',
+      label: 'Built around your specific workflow — not a template'
     },
     {
-      icon: <Users className="stat-icon" />,
-      value: '1 App',
-      label: 'Calls, texts, leads, and pipeline in one place'
+      icon: <TrendingUp className="stat-icon" />,
+      value: 'More Revenue',
+      label: 'Less time on tasks, more time closing business'
     }
   ];
 

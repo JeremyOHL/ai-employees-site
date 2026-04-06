@@ -1,148 +1,88 @@
 import React from 'react';
 import {
-  MessageSquare,
-  Users,
-  Zap,
-  Megaphone,
-  Calendar,
-  BarChart3,
+  PhoneMissed,
+  FileText,
   Star,
-  Globe,
-  Phone,
-  DollarSign
+  CalendarCheck,
+  MessageCircle,
+  BarChart3,
+  RefreshCw,
+  Bell,
+  ShoppingCart,
+  Users
 } from 'lucide-react';
 
 const Features = () => {
-  const categories = [
+  const solutions = [
     {
-      icon: <MessageSquare size={28} />,
-      title: 'Unified Inbox & Communication',
-      description: 'Every conversation in one place — no more switching between apps.',
-      items: [
-        'Two-way SMS & MMS texting',
-        'Email inbox & outbound campaigns',
-        'Phone calling with call recording',
-        'Facebook & Instagram DMs',
-        'Live chat widget for your website',
-        'Google Business Messages'
-      ]
+      icon: <PhoneMissed size={28} />,
+      problem: 'Missed calls turn into lost customers.',
+      title: 'Never Lose a Lead to Voicemail Again',
+      description: 'When a customer calls and no one picks up, an instant text goes out to keep the conversation alive — right when they\'re still thinking about you. No more lost leads from missed calls.',
+      outcome: 'Leads stay warm, even when you\'re busy on a job.'
     },
     {
-      icon: <Users size={28} />,
-      title: 'CRM & Pipeline Management',
-      description: 'Track every lead from first contact to paid invoice.',
-      items: [
-        'Full contact & lead management',
-        'Custom sales pipelines & stages',
-        'Opportunity tracking & deal values',
-        'Tags, smart lists & segmentation',
-        'Lead source tracking',
-        'Notes, tasks & activity history'
-      ]
-    },
-    {
-      icon: <Zap size={28} />,
-      title: 'Automation & AI Tools',
-      description: 'Let the system work while you\'re on the job.',
-      items: [
-        'Missed call text-back (instant reply)',
-        'AI conversational chatbot',
-        'Drag-and-drop workflow builder',
-        'Trigger-based automations',
-        'Lead qualification sequences',
-        'Voicemail drops'
-      ]
-    },
-    {
-      icon: <Megaphone size={28} />,
-      title: 'Marketing & Campaigns',
-      description: 'Reach leads and past customers automatically.',
-      items: [
-        'Email drip & broadcast campaigns',
-        'SMS marketing campaigns',
-        'Lead reactivation sequences',
-        'Social media planner & scheduler',
-        'Reputation management & review requests',
-        'Google & Facebook review monitoring'
-      ]
-    },
-    {
-      icon: <Calendar size={28} />,
-      title: 'Scheduling & Bookings',
-      description: 'Fill your calendar without playing phone tag.',
-      items: [
-        'Online self-booking calendar',
-        'Appointment reminders (SMS & email)',
-        'No-show follow-up automation',
-        'Confirmation & rescheduling flows',
-        'Team calendar management',
-        'Round-robin & resource scheduling'
-      ]
-    },
-    {
-      icon: <Globe size={28} />,
-      title: 'Websites, Funnels & Forms',
-      description: 'Build the pages that capture leads and convert them.',
-      items: [
-        'Drag-and-drop website builder',
-        'High-converting funnel pages',
-        'Form & survey builder',
-        'Pop-ups & lead capture widgets',
-        'Blog & SEO-ready pages',
-        'Custom domain support'
-      ]
-    },
-    {
-      icon: <DollarSign size={28} />,
-      title: 'Payments & Invoicing',
-      description: 'Get paid faster — right from the same app.',
-      items: [
-        'Online invoicing & payment links',
-        'Text-to-pay & email-to-pay',
-        'Estimates & proposals',
-        'Recurring billing & subscriptions',
-        'Payment tracking & receipts',
-        'Stripe & other payment integrations'
-      ]
-    },
-    {
-      icon: <BarChart3 size={28} />,
-      title: 'Reporting & Analytics',
-      description: 'Know your numbers and where to improve.',
-      items: [
-        'Lead source & revenue dashboards',
-        'Pipeline conversion reporting',
-        'Campaign performance tracking',
-        'Call & communication analytics',
-        'Google Ads & Facebook Ads reporting',
-        'Custom report builder'
-      ]
-    },
-    {
-      icon: <Phone size={28} />,
-      title: 'Mobile App & Team Tools',
-      description: 'Run your business from anywhere, with your whole team.',
-      items: [
-        'Full-featured iOS & Android app',
-        'Team inbox & conversation routing',
-        'Staff user roles & permissions',
-        'Internal notes & task assignments',
-        'Real-time lead & opportunity alerts',
-        'Multi-location support'
-      ]
+      icon: <FileText size={28} />,
+      problem: 'Quotes sit unanswered for days.',
+      title: 'Follow-Up That Happens Without You',
+      description: 'Once a quote or proposal goes out, automated follow-ups check in at the right intervals — nudging prospects toward a decision so your team doesn\'t have to chase every one manually.',
+      outcome: 'More quotes convert without your team lifting a finger.'
     },
     {
       icon: <Star size={28} />,
-      title: 'Memberships & Course Delivery',
-      description: 'Sell your expertise or onboard customers at scale.',
-      items: [
-        'Membership site builder',
-        'Online course creation & delivery',
-        'Video content hosting',
-        'Drip course schedules',
-        'Client onboarding portals',
-        'Affiliate & referral tracking'
-      ]
+      problem: 'You have too few online reviews to compete.',
+      title: 'Build Your Reputation on Autopilot',
+      description: 'After every completed job or transaction, a review request goes out automatically. Happy customers are guided to leave feedback where it matters most — Google, Facebook, and beyond.',
+      outcome: 'A steady stream of fresh reviews without ever asking manually.'
+    },
+    {
+      icon: <CalendarCheck size={28} />,
+      problem: 'No-shows and last-minute cancellations wreck your schedule.',
+      title: 'Appointments That Actually Get Kept',
+      description: 'Automated reminders go out before every appointment via text and email, with easy rescheduling options. Clients remember. No-shows drop. Your team stops playing phone tag.',
+      outcome: 'A fuller, more predictable calendar every week.'
+    },
+    {
+      icon: <MessageCircle size={28} />,
+      problem: 'Customer questions pile up after hours.',
+      title: '24/7 Responses Without Hiring Anyone',
+      description: 'A smart automated assistant handles common questions around the clock — business hours, pricing, availability, directions — so customers get answers and you don\'t miss opportunities.',
+      outcome: 'Customers feel taken care of. You sleep without missing a beat.'
+    },
+    {
+      icon: <BarChart3 size={28} />,
+      problem: 'You don\'t know which marketing is actually working.',
+      title: 'See Exactly Where Your Revenue Comes From',
+      description: 'A clear, simple dashboard shows you where every lead originated, how many converted, and which efforts are worth your budget — so you stop guessing and start investing smarter.',
+      outcome: 'Confident decisions backed by real numbers, not gut feelings.'
+    },
+    {
+      icon: <RefreshCw size={28} />,
+      problem: 'Past customers forget you exist.',
+      title: 'Reactivate Customers Who\'ve Gone Quiet',
+      description: 'Automated campaigns reach back out to past customers at the right time — seasonal offers, check-ins, referral asks — keeping your business top of mind without any manual outreach.',
+      outcome: 'More repeat business and referrals from customers you already earned.'
+    },
+    {
+      icon: <Bell size={28} />,
+      problem: 'Your team doesn\'t know who to call or when.',
+      title: 'Alerts That Keep Your Team on Track',
+      description: 'When a lead goes cold, a task goes overdue, or a deal needs attention, automated alerts notify the right person at the right moment — so nothing slips through the cracks.',
+      outcome: 'A team that acts on time, every time, without being micromanaged.'
+    },
+    {
+      icon: <ShoppingCart size={28} />,
+      problem: 'Getting paid takes too many back-and-forth steps.',
+      title: 'Invoices That Pay Themselves (Almost)',
+      description: 'Send digital invoices that customers can pay instantly via text or email — no logins, no hassle. Automated reminders go out for unpaid invoices so you don\'t have to chase checks.',
+      outcome: 'Faster payments and less awkward follow-up.'
+    },
+    {
+      icon: <Users size={28} />,
+      problem: 'New customers don\'t know what to expect after they sign.',
+      title: 'Onboarding That Runs Itself',
+      description: 'When a new customer comes on board, an automated welcome sequence goes out — next steps, key contacts, important info — delivered at the right pace so they feel supported from day one.',
+      outcome: 'Happier customers, fewer confused calls, and stronger retention.'
     }
   ];
 
@@ -150,36 +90,33 @@ const Features = () => {
     <section id="features" className="features-section">
       <div className="features-container">
         <div className="section-header">
-          <p className="section-eyebrow">Everything In One Platform</p>
-          <h2 className="section-title">Every Tool Your Business Needs — No Stitching Required</h2>
+          <p className="section-eyebrow">Real Problems. Real Solutions.</p>
+          <h2 className="section-title">Common Business Headaches We Fix Every Day</h2>
           <p className="section-subtitle">
-            The Mondays Marketing Systems App replaces 10+ separate tools with a single, unified platform built for home service businesses.
+            These are real scenarios business owners face — and exactly the kind of problems Mondays Marketing Systems is built to solve.
           </p>
         </div>
 
         <div className="features-grid-expanded">
-          {categories.map((cat, index) => (
+          {solutions.map((sol, index) => (
             <div key={index} className="feature-card-expanded">
               <div className="feature-icon">
-                {cat.icon}
+                {sol.icon}
               </div>
-              <h3 className="feature-title">{cat.title}</h3>
-              <p className="feature-description">{cat.description}</p>
-              <ul className="feature-list">
-                {cat.items.map((item, idx) => (
-                  <li key={idx} className="feature-list-item">
-                    <span className="feature-list-dot" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+              <p className="feature-problem-label">{sol.problem}</p>
+              <h3 className="feature-title">{sol.title}</h3>
+              <p className="feature-description">{sol.description}</p>
+              <div className="feature-outcome">
+                <span className="outcome-label">Result: </span>
+                {sol.outcome}
+              </div>
             </div>
           ))}
         </div>
 
         <div className="features-cta-strip">
           <p className="features-strip-text">
-            All of this is included with every plan — the difference is how much help you get setting it up.
+            Every solution is built specifically for your business — not a copy-paste template. We learn how you work, then build a system that fits.
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Phone, MessageSquare, Clock, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Zap, Clock, BarChart3, Settings } from 'lucide-react';
 import LogoLink from './LogoLink';
 
 const Hero = ({ openModal }) => {
@@ -17,33 +17,33 @@ const Hero = ({ openModal }) => {
 
         {/* Hero Content */}
         <div className="hero-content">
-          <div className="hero-badge">The Complete Platform for Home Service Businesses</div>
+          <div className="hero-badge">Custom Business Integrations & Automation</div>
 
           <h1 className="hero-title">
-            Run Your Entire Business from One Powerful App.
+            Your Business Runs Smoother When the Right Systems Are Working For You.
           </h1>
 
           <p className="hero-subtitle">
-            CRM, automation, messaging, scheduling, marketing, payments, and more — all in the Mondays Marketing Systems App.
+            Mondays Marketing Systems builds custom integrations that handle the busywork — so you and your team can focus on what actually grows your business.
           </p>
 
           {/* Key Benefits */}
           <div className="hero-benefits">
             <div className="benefit-item">
-              <Phone className="benefit-icon" />
-              <span>Never miss a lead — AI follows up instantly</span>
-            </div>
-            <div className="benefit-item">
-              <MessageSquare className="benefit-icon" />
-              <span>All calls, texts, emails & chats in one inbox</span>
+              <Zap className="benefit-icon" />
+              <span>Respond to leads instantly — even while you sleep</span>
             </div>
             <div className="benefit-item">
               <Clock className="benefit-icon" />
-              <span>Automated follow-up so no deal goes cold</span>
+              <span>Eliminate repetitive manual tasks your team dreads</span>
             </div>
             <div className="benefit-item">
-              <CheckCircle2 className="benefit-icon" />
-              <span>Choose your level — DIY, guided, or fully done-for-you</span>
+              <BarChart3 className="benefit-icon" />
+              <span>Know exactly where every lead and customer stands</span>
+            </div>
+            <div className="benefit-item">
+              <Settings className="benefit-icon" />
+              <span>Custom-built for your business — not a generic template</span>
             </div>
           </div>
 
@@ -53,14 +53,14 @@ const Hero = ({ openModal }) => {
               className="cta-primary hero-primary-btn"
               onClick={() => openModal()}
             >
-              Get My Info Package
+              Let's Talk About Your Business
               <ArrowRight size={18} className="button-icon" />
             </button>
             <button
               className="cta-secondary"
               onClick={scrollToPricing}
             >
-              See Pricing & Plans
+              See Our Pricing
             </button>
           </div>
 
@@ -73,7 +73,7 @@ const Hero = ({ openModal }) => {
               <div className="avatar">AL</div>
             </div>
             <div className="social-proof-text">
-              <strong>Built for</strong> plumbers, HVAC, roofing, electrical, cleaning, landscapers, and more
+              <strong>Built for</strong> service businesses, retailers, agencies, contractors, and growing teams of all kinds
             </div>
           </div>
         </div>

@@ -5,44 +5,44 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: 'Mike Richardson',
-      company: 'Richardson Plumbing',
+      company: 'Richardson & Sons Plumbing',
       role: 'Owner',
-      text: 'Mondays cleaned up our process. Now we can see leads, bookings, and revenue in one place.',
+      text: 'Mondays cleaned up our entire operation. Leads, bookings, follow-up — it all just runs. We stopped losing jobs to voicemail.',
       avatar: 'MR'
     },
     {
       name: 'Sarah Thompson',
-      company: 'Thompson HVAC Services',
+      company: 'Thompson Property Group',
       role: 'Operations Manager',
-      text: 'They launched us in two weeks and keep shipping new campaigns. Booked jobs are up 40% because follow-up just happens without us chasing it.',
+      text: 'They were up and running in two weeks. Our follow-up happens automatically now and we\'ve seen a 40% jump in closed deals without chasing anything manually.',
       avatar: 'ST'
     },
     {
       name: 'James Martinez',
-      company: 'Elite Landscaping Co',
+      company: 'Martinez Agency',
       role: 'CEO',
-      text: 'The follow-up and routing rules work. Our team spends time with qualified leads, not tire-kickers.',
+      text: 'The systems they built save my team hours every week. We focus on clients, not admin. It\'s the best investment we\'ve made in the business.',
       avatar: 'JM'
     },
     {
       name: 'Lisa Chen',
-      company: 'Pro Electrical Solutions',
+      company: 'Chen Wellness Studio',
       role: 'Owner',
-      text: 'Our team finally has one place to run lead follow-up and communication. It feels like an in-house team without extra payroll.',
+      text: 'Our no-show rate dropped dramatically after they set up our reminder system. Clients actually show up — and the ones who don\'t reschedule automatically.',
       avatar: 'LC'
     },
     {
       name: 'Tom Anderson',
-      company: 'Anderson Roofing',
+      company: 'Anderson Construction Group',
       role: 'President',
-      text: 'Weekly reviews and dashboards show real numbers. We make faster decisions with more confidence.',
+      text: 'Now I have a dashboard that shows me exactly where our revenue comes from and where we\'re losing deals. Way better decisions, way less guessing.',
       avatar: 'TA'
     },
     {
       name: 'Rachel Foster',
-      company: 'Foster Cleaning Services',
+      company: 'Foster Creative Co.',
       role: 'Founder',
-      text: 'I used to live in chaos. With the Mondays Marketing App, nothing slips: forms, chat, SMS, reviews, calendars, and follow-up all work together.',
+      text: 'I used to live in chaos trying to juggle client communications, invoices, and follow-ups. Mondays built a system that handles most of it — I barely think about it anymore.',
       avatar: 'RF'
     }
   ];
@@ -51,9 +51,9 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials-section">
       <div className="testimonials-container">
         <div className="section-header">
-          <h2 className="section-title">Home Service Operators Growing with Mondays Marketing</h2>
+          <h2 className="section-title">Business Owners Running Smarter with Mondays Marketing</h2>
           <p className="section-subtitle">
-            Real teams fixing dropped leads and replacing patchwork tools with one clear system.
+            Real results from real businesses — fewer dropped leads, less manual work, and more time to grow.
           </p>
         </div>
 

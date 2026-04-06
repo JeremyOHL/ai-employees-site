@@ -2,25 +2,28 @@ import React, { useState, useEffect } from 'react';
 import { X, CheckCircle2, Loader2 } from 'lucide-react';
 
 const BUSINESS_TYPES = [
-  'Plumbing',
-  'HVAC',
-  'Electrical',
-  'Roofing',
-  'Landscaping / Lawn Care',
-  'Cleaning Services',
-  'Painting',
-  'Pest Control',
-  'Pool & Spa',
-  'Flooring',
-  'Remodeling / General Contractor',
-  'Appliance Repair',
-  'Other Home Service'
+  'Service Business (Home, Field, Local)',
+  'Retail or E-Commerce',
+  'Agency or Consulting',
+  'Real Estate',
+  'Healthcare or Wellness',
+  'Restaurant or Food Service',
+  'Construction or Contracting',
+  'Legal or Financial Services',
+  'Coaching or Education',
+  'Nonprofit',
+  'Other'
 ];
 
-const PLANS = [
-  { value: 'Self-Starter', label: 'Self-Starter — $97/mo (DIY Platform Access)' },
-  { value: 'Growth Partner', label: 'Growth Partner — $297/mo (Done With You)' },
-  { value: 'White Glove', label: 'White Glove — $497/mo (Done For You)' }
+const INTERESTS = [
+  { value: 'Lead Response & Follow-Up', label: 'Lead Response & Follow-Up Automation' },
+  { value: 'Appointment & Scheduling', label: 'Appointment Reminders & Scheduling' },
+  { value: 'Reviews & Reputation', label: 'Review Collection & Reputation Building' },
+  { value: 'Customer Communication', label: 'Customer Communication & After-Hours Response' },
+  { value: 'Invoicing & Payments', label: 'Invoicing & Payment Automation' },
+  { value: 'Reporting & Analytics', label: 'Reporting & Performance Dashboards' },
+  { value: 'Customer Reactivation', label: 'Reactivating Past Customers' },
+  { value: 'Custom Integration', label: 'Custom Integration — Not Sure Yet' }
 ];
 
 const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
@@ -62,7 +65,7 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
     if (!formData.phone.trim()) newErrors.phone = 'Required';
     if (!formData.businessName.trim()) newErrors.businessName = 'Required';
     if (!formData.businessType) newErrors.businessType = 'Required';
-    if (!formData.plan) newErrors.plan = 'Please select a plan';
+    if (!formData.plan) newErrors.plan = 'Please select an area of interest';
     return newErrors;
   };
 
@@ -112,8 +115,6 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
 
   if (!isOpen) return null;
 
-  const planLabel = PLANS.find(p => p.value === formData.plan)?.label || formData.plan;
-
   return (
     <div className="lead-modal-overlay" onClick={handleOverlayClick}>
       <div className="lead-modal" role="dialog" aria-modal="true">
@@ -126,18 +127,18 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
             <div className="success-icon-wrap">
               <CheckCircle2 size={56} className="success-icon" />
             </div>
-            <h2 className="success-title">Your Info Package Is On Its Way!</h2>
+            <h2 className="success-title">We'll Be in Touch Shortly!</h2>
             <p className="success-body">
-              We sent a personalized package to <strong>{formData.email}</strong> with everything you need to make a confident decision:
+              Thanks for reaching out. We received your information and will follow up at <strong>{formData.email}</strong> to schedule a quick discovery conversation.
             </p>
             <ul className="success-list">
-              <li>✦ A full demo video of the Mondays Marketing Systems App</li>
-              <li>✦ A complete breakdown of your selected plan: <strong>{formData.plan}</strong></li>
-              <li>✦ Real results from home service businesses just like yours</li>
-              <li>✦ Clear next steps to get started</li>
+              <li>✦ A short discovery call to learn about your business</li>
+              <li>✦ A custom proposal outlining what we'd build for you</li>
+              <li>✦ Clear pricing with no surprises</li>
+              <li>✦ No pressure — just a conversation</li>
             </ul>
             <p className="success-note">
-              Don't see it? Check your spam folder or reach out directly — we'll make sure you have everything you need.
+              Don't see our email? Check your spam folder or reach out directly — we'll make sure you have everything you need.
             </p>
             <button className="success-close-btn" onClick={onClose}>
               Got It — Close
@@ -146,10 +147,10 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
         ) : (
           <>
             <div className="lead-modal-header">
-              <p className="lead-modal-eyebrow">Get Your Personalized Info Package</p>
-              <h2 className="lead-modal-title">See What the Right Plan Can Do for Your Business</h2>
+              <p className="lead-modal-eyebrow">Let's Talk About Your Business</p>
+              <h2 className="lead-modal-title">Tell Us a Little About What You Need</h2>
               <p className="lead-modal-subtitle">
-                Fill in your details below and we'll send you a custom package — including a demo video, full feature breakdown, and a clear path forward.
+                Fill in your details below and we'll reach out to schedule a quick, no-pressure discovery conversation — then we'll show you exactly what we'd build.
               </p>
             </div>
 
@@ -161,7 +162,7 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
                     className={`lead-form-input ${errors.firstName ? 'input-error' : ''}`}
                     type="text"
                     name="firstName"
-                    placeholder="James"
+                    placeholder="Sarah"
                     value={formData.firstName}
                     onChange={handleChange}
                   />
@@ -173,7 +174,7 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
                     className={`lead-form-input ${errors.lastName ? 'input-error' : ''}`}
                     type="text"
                     name="lastName"
-                    placeholder="Smith"
+                    placeholder="Johnson"
                     value={formData.lastName}
                     onChange={handleChange}
                   />
@@ -187,7 +188,7 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
                   className={`lead-form-input ${errors.email ? 'input-error' : ''}`}
                   type="email"
                   name="email"
-                  placeholder="james@smithplumbing.com"
+                  placeholder="sarah@yourbusiness.com"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -213,7 +214,7 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
                   className={`lead-form-input ${errors.businessName ? 'input-error' : ''}`}
                   type="text"
                   name="businessName"
-                  placeholder="Smith Plumbing Co."
+                  placeholder="Your Business Name"
                   value={formData.businessName}
                   onChange={handleChange}
                 />
@@ -228,7 +229,7 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
                   value={formData.businessType}
                   onChange={handleChange}
                 >
-                  <option value="">Select your trade...</option>
+                  <option value="">Select your industry...</option>
                   {BUSINESS_TYPES.map(type => (
                     <option key={type} value={type}>{type}</option>
                   ))}
@@ -237,16 +238,16 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
               </div>
 
               <div className="lead-form-group">
-                <label className="lead-form-label">Which Plan Interests You?</label>
+                <label className="lead-form-label">What Can We Help With?</label>
                 <select
                   className={`lead-form-select ${errors.plan ? 'input-error' : ''}`}
                   name="plan"
                   value={formData.plan}
                   onChange={handleChange}
                 >
-                  <option value="">Select a plan...</option>
-                  {PLANS.map(plan => (
-                    <option key={plan.value} value={plan.value}>{plan.label}</option>
+                  <option value="">Select an area of interest...</option>
+                  {INTERESTS.map(item => (
+                    <option key={item.value} value={item.value}>{item.label}</option>
                   ))}
                 </select>
                 {errors.plan && <span className="form-error">{errors.plan}</span>}
@@ -260,15 +261,15 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
                 {isSubmitting ? (
                   <>
                     <Loader2 size={18} className="spin" />
-                    Sending Your Package...
+                    Sending...
                   </>
                 ) : (
-                  'Send Me My Custom Info Package'
+                  'Get My Custom Quote'
                 )}
               </button>
 
               <p className="lead-form-disclaimer">
-                No spam, ever. We'll send your personalized overview and follow up once — that's it.
+                No spam, ever. We'll reach out once to schedule a conversation — that's it.
               </p>
             </form>
           </>

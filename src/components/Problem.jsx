@@ -3,28 +3,30 @@ import { X, Check } from 'lucide-react';
 
 const Problem = () => {
   const problems = [
-    'Missed calls and late replies send leads to competitors',
-    'No-shows and weak follow-up leave estimates hanging',
-    'Leads are scattered, so your pipeline is unclear',
-    'Admin work steals time from sales and operations',
-    'Without clear numbers, money leaks go unseen'
+    'Leads come in but slow response sends them straight to a competitor',
+    'Your team spends hours on repetitive tasks instead of growing the business',
+    'You have no clear picture of where your customers are in the sales process',
+    'Questions pile up after hours with no one around to answer them',
+    'You can\'t tell which marketing efforts are actually making you money',
+    'Appointments get missed or cancelled with no system to catch the fall'
   ];
 
   const solutions = [
-    'AI Agents respond, qualify, and route leads 24/7',
-    'Automations handle reminders and follow-up',
-    'One inbox for calls, texts, forms, and chat',
-    'Track each lead from first contact to closed job',
-    'Run your team from one clear system'
+    'Instant automated responses engage every lead before they move on',
+    'Repetitive tasks handled automatically — follow-ups, reminders, data entry',
+    'Every lead tracked from first contact to closed deal with nothing falling through',
+    'Round-the-clock automated responses handle common questions at any hour',
+    'Clear dashboards show exactly what\'s working so you invest smarter',
+    'Smart reminders slash no-shows and keep your calendar full'
   ];
 
   return (
     <section id="problem" className="problem-section">
       <div className="problem-container">
         <div className="section-header">
-          <h2 className="section-title">Where Home Service Businesses Leak Revenue</h2>
+          <h2 className="section-title">The Real Reasons Businesses Leave Money on the Table</h2>
           <p className="section-subtitle">
-            You do not need more leads first. You need faster response, better follow-up, and clear visibility. We fix that.
+            It is rarely a lack of leads. It is the gaps in follow-up, communication, and visibility that quietly drain revenue every week.
           </p>
         </div>
 
@@ -44,8 +46,8 @@ const Problem = () => {
               ))}
             </div>
             <div className="problem-stat">
-              <span className="stat-number">30%+</span>
-              <span className="stat-text">of inbound leads often go unanswered or under-followed</span>
+              <span className="stat-number">Every Day</span>
+              <span className="stat-text">these gaps cost businesses real revenue — most owners don't even know it's happening</span>
             </div>
           </div>
 
@@ -53,7 +55,7 @@ const Problem = () => {
           <div className="solution-column">
             <div className="column-header solution-header">
               <Check className="header-icon" />
-              <h3>The Solution</h3>
+              <h3>The Mondays Solution</h3>
             </div>
             <div className="solution-list">
               {solutions.map((solution, index) => (
@@ -64,8 +66,8 @@ const Problem = () => {
               ))}
             </div>
             <div className="solution-stat">
-              <span className="stat-number">1 App</span>
-              <span className="stat-text">Minimal owner time, automated follow-up, and clear weekly performance visibility</span>
+              <span className="stat-number">One Partner</span>
+              <span className="stat-text">We design, build, and manage the systems that close your gaps and run your business more efficiently</span>
             </div>
           </div>
         </div>
