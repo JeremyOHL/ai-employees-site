@@ -1,8 +1,11 @@
 import React from 'react';
-import { ArrowRight, Zap, Clock, BarChart3, Settings } from 'lucide-react';
+import { ArrowRight, Zap, Clock, BarChart3, Settings, ClipboardList } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import LogoLink from './LogoLink';
 
 const Hero = ({ openModal }) => {
+  const navigate = useNavigate();
+
   const scrollToPricing = () => {
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -51,16 +54,17 @@ const Hero = ({ openModal }) => {
           <div className="hero-cta">
             <button
               className="cta-primary hero-primary-btn"
-              onClick={() => openModal()}
+              onClick={() => navigate('/audit')}
             >
-              Let's Talk About Your Business
-              <ArrowRight size={18} className="button-icon" />
+              <ClipboardList size={18} className="button-icon" />
+              Audit Your Business — Free
             </button>
             <button
               className="cta-secondary"
-              onClick={scrollToPricing}
+              onClick={() => openModal()}
             >
-              See Our Pricing
+              Let's Talk
+              <ArrowRight size={16} className="button-icon" />
             </button>
           </div>
 
