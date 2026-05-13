@@ -20,14 +20,14 @@ const Hero = ({ openModal }) => {
 
         {/* Hero Content */}
         <div className="hero-content">
-          <div className="hero-badge">AI-Powered Business Automation</div>
+          <div className="hero-badge">Business Systems That Run Themselves</div>
 
           <h1 className="hero-title">
-            Stop Doing Everything Manually.
+            More Leads. More Revenue. Less Work.
           </h1>
 
           <p className="hero-subtitle">
-            We build AI-powered systems that follow up with leads, handle customer questions, and run your back office — automatically.
+            We build custom systems that follow up with leads, handle customer questions, and run your back office — automatically.
           </p>
 
           {/* Key Benefits */}

@@ -23,7 +23,7 @@ const Pricing = ({ openModal }) => {
 
         <div className="pricing-single-wrap">
           <div className="pricing-single-card">
-            <div className="pricing-single-badge">Custom AI Integrations</div>
+            <div className="pricing-single-badge">Custom Business Integrations</div>
 
             <div className="pricing-single-price-block">
               <span className="pricing-single-from">Starting at</span>
