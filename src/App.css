@@ -147,12 +147,20 @@ html {
   margin-bottom: 60px;
 }
 
+.hero-cta button {
+  flex: 1;
+  max-width: 340px;
+}
+
 .cta-primary {
   background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
   color: #000000;
   font-weight: 700;
   font-size: 1.1rem;
-  padding: 16px 48px;
+  padding: 14px 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 12px;
   border: none;
   cursor: pointer;
@@ -171,7 +179,11 @@ html {
   color: #f6f8ff;
   font-weight: 700;
   font-size: 1.1rem;
-  padding: 16px 48px;
+  padding: 14px 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   border-radius: 12px;
   border: 2px solid #9b4dff;
   cursor: pointer;
