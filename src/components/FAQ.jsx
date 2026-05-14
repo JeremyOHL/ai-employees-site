@@ -14,7 +14,7 @@ const FAQ = () => {
     },
     {
       question: 'What kinds of businesses do you work with?',
-      answer: 'We work with a wide range of businesses — service companies, contractors, agencies, retailers, consultants, and more. If your business deals with leads, customers, appointments, or a sales process of any kind, there\'s almost certainly a way we can help it run more efficiently. If you\'re not sure whether we\'re a good fit, just reach out and we\'ll tell you honestly.'
+      answer: 'We specialize in home service businesses — HVAC, plumbing, electrical, roofing, landscaping, cleaning, pest control, painting, and similar trades. If you\'re running a crew, booking jobs, and dealing with leads and follow-ups, we\'re built for you. If you\'re not sure whether we\'re a fit, just reach out and we\'ll tell you honestly.'
     },
     {
       question: 'Do I need to be tech-savvy to use what you build?',

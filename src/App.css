@@ -149,7 +149,7 @@ html {
 
 .hero-cta button {
   flex: 1;
-  max-width: 340px;
+  max-width: 420px;
 }
 
 .cta-primary {
@@ -161,6 +161,7 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
   border-radius: 12px;
   border: none;
   cursor: pointer;
@@ -184,6 +185,7 @@ html {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  white-space: nowrap;
   border-radius: 12px;
   border: 2px solid #9b4dff;
   cursor: pointer;
@@ -530,7 +532,7 @@ html {
 
 .steps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin-bottom: 60px;
 }
@@ -1263,7 +1265,8 @@ html {
   .cta-primary,
   .cta-secondary {
     width: 100%;
-    max-width: 300px;
+    max-width: 340px;
+    white-space: normal;
   }
 
   .problem-grid {

@@ -91,7 +91,7 @@ const Features = () => {
       <div className="features-container">
         <div className="section-header">
           <p className="section-eyebrow">Real Problems. Real Solutions.</p>
-          <h2 className="section-title">Common Business Headaches We Fix Every Day</h2>
+          <h2 className="section-title">Common Business Headaches<br />We Fix Every Day</h2>
           <p className="section-subtitle">
             These are real scenarios business owners face — and exactly the kind of problems Mondays Marketing Systems is built to solve.
           </p>

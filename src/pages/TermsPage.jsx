@@ -7,9 +7,9 @@ const TermsPage = () => {
     <div className="legal-page">
       <header className="legal-hero">
         <LogoLink />
-        <h1 className="legal-title">Simple terms for Mondays Marketing.</h1>
+        <h1 className="legal-title">Simple terms for Mondays Marketing Systems.</h1>
         <p className="legal-subtitle">
-          How we partner, protect your data, and keep your operating system running smoothly.
+          How we partner with home service businesses, protect your data, and keep your systems running smoothly.
         </p>
       </header>
 
@@ -19,7 +19,7 @@ const TermsPage = () => {
           <ul className="legal-bullets">
             <li className="legal-bullet">
               <span className="legal-bullet-title">Services</span>
-              <span className="legal-bullet-body">We provide AI Agents and the Mondays Marketing App business suite, including communications, CRM, automations, booking, and campaigns.</span>
+              <span className="legal-bullet-body">We provide custom business systems and integrations for home service businesses, including lead response, CRM, automated follow-up, appointment reminders, review requests, and reporting.</span>
             </li>
             <li className="legal-bullet">
               <span className="legal-bullet-title">Acceptable Use</span>

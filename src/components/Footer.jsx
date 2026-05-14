@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">What We Build</h4>
             <ul className="footer-links">
-              <li><a href="#features">AI Lead Response</a></li>
+              <li><a href="#features">Lead Response Systems</a></li>
               <li><a href="#features">Automated Follow-Up</a></li>
               <li><a href="#features">Appointment Reminders</a></li>
-              <li><a href="#features">AI Customer Chat</a></li>
+              <li><a href="#features">Customer Chat & FAQ</a></li>
               <li><a href="#features">Review Automation</a></li>
               <li><a href="#features">Reporting & Dashboards</a></li>
             </ul>
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <Phone className="contact-icon" />
-                <a href="tel:+15139604070">(513) 960-4070</a>
+                <a href="tel:+15132763058">(513) 276-3058</a>
               </div>
             </div>
           </div>

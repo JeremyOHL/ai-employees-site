@@ -37,12 +37,12 @@ const CTA = ({ openModal }) => {
             </div>
           </div>
 
-          <div className="cta-buttons">
-            <button className="cta-primary-button" onClick={() => openModal()}>
+          <div className="hero-cta">
+            <button className="cta-primary hero-primary-btn" onClick={() => openModal()}>
               Let's Talk About Your Business
               <ArrowRight size={18} className="button-icon" />
             </button>
-            <button className="cta-secondary-button" onClick={scrollToPricing}>
+            <button className="cta-secondary" onClick={scrollToPricing}>
               See Pricing
             </button>
           </div>

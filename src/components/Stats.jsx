@@ -1,27 +1,27 @@
 import React from 'react';
-import { Zap, Clock, Settings, TrendingUp } from 'lucide-react';
+import { PhoneMissed, CalendarCheck, Star, DollarSign } from 'lucide-react';
 
 const Stats = () => {
   const stats = [
     {
-      icon: <Zap className="stat-icon" />,
-      value: 'Instant',
-      label: 'Automated lead response — day or night'
+      icon: <PhoneMissed className="stat-icon" />,
+      value: 'Never Miss a Lead',
+      label: 'Every inquiry gets an instant response — before they call your competitor'
     },
     {
-      icon: <Clock className="stat-icon" />,
-      value: '24/7',
-      label: 'Systems that work even when you don\'t'
+      icon: <CalendarCheck className="stat-icon" />,
+      value: 'Zero No-Shows',
+      label: 'Automatic reminders keep your schedule full and your crew busy'
     },
     {
-      icon: <Settings className="stat-icon" />,
-      value: 'Custom',
-      label: 'Built around your specific workflow — not a template'
+      icon: <Star className="stat-icon" />,
+      value: 'More 5-Star Reviews',
+      label: 'Every completed job triggers a review request while the experience is fresh'
     },
     {
-      icon: <TrendingUp className="stat-icon" />,
-      value: 'More Revenue',
-      label: 'Less time on tasks, more time closing business'
+      icon: <DollarSign className="stat-icon" />,
+      value: 'Get Paid Faster',
+      label: 'Digital invoices and automatic follow-ups mean fewer unpaid jobs to chase'
     }
   ];
 

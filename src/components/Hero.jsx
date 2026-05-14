@@ -70,14 +70,8 @@ const Hero = ({ openModal }) => {
 
           {/* Social Proof */}
           <div className="hero-social-proof">
-            <div className="avatar-group">
-              <div className="avatar">JS</div>
-              <div className="avatar">MR</div>
-              <div className="avatar">TK</div>
-              <div className="avatar">AL</div>
-            </div>
             <div className="social-proof-text">
-              <strong>Built for</strong> service businesses, retailers, agencies, contractors, and growing teams of all kinds
+              <strong>Built for home service businesses —</strong> HVAC, plumbing, electrical, roofing, landscaping, cleaning, pest control, and more
             </div>
           </div>
         </div>
