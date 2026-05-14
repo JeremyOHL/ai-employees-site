@@ -2,17 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { X, CheckCircle2, Loader2 } from 'lucide-react';
 
 const BUSINESS_TYPES = [
-  'Service Business (Home, Field, Local)',
-  'Retail or E-Commerce',
-  'Agency or Consulting',
-  'Real Estate',
-  'Healthcare or Wellness',
-  'Restaurant or Food Service',
-  'Construction or Contracting',
-  'Legal or Financial Services',
-  'Coaching or Education',
-  'Nonprofit',
-  'Other'
+  'HVAC',
+  'Plumbing',
+  'Electrical',
+  'Roofing',
+  'Landscaping & Lawn Care',
+  'Cleaning Services',
+  'Pest Control',
+  'Painting',
+  'General Contracting',
+  'Pool & Spa Services',
+  'Garage Door & Gates',
+  'Flooring',
+  'Tree Services',
+  'Handyman Services',
+  'Other Home Service'
 ];
 
 const INTERESTS = [
@@ -222,14 +226,14 @@ const LeadFormModal = ({ isOpen, onClose, selectedPlan }) => {
               </div>
 
               <div className="lead-form-group">
-                <label className="lead-form-label">Business Type</label>
+                <label className="lead-form-label">Trade / Service Type</label>
                 <select
                   className={`lead-form-select ${errors.businessType ? 'input-error' : ''}`}
                   name="businessType"
                   value={formData.businessType}
                   onChange={handleChange}
                 >
-                  <option value="">Select your industry...</option>
+                  <option value="">Select your trade...</option>
                   {BUSINESS_TYPES.map(type => (
                     <option key={type} value={type}>{type}</option>
                   ))}
